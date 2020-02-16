@@ -12,7 +12,7 @@
   
   - [Подписка](translates/overview/subscription.md)
   
-  - Subject-ы
+  - [Subject-ы](translates/overview/subjects.md)
   
   - Scheduler-ы
   
