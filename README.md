@@ -22,6 +22,8 @@
     
     - Написание Marble тестов
 
-- Установка
+- [Установка](translates/installation.md)
 
 - API
+
+
