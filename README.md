@@ -24,6 +24,6 @@
 
 - [Установка](translates/installation.md)
 
-- API
+- [API](translates/api/api.md)
 
 
