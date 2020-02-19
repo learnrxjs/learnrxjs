@@ -4,6 +4,8 @@
 
 > 💡 Если вы хотите завершить Obsevable когда функция-критерий вернет `false` используйте `takeWhile`
 
+## Сигнатура
+
 ```ts
 filter<T>(predicate: (value: T, index: number) => boolean, thisArg?: any): MonoTypeOperatorFunction<T>
 ```
@@ -12,7 +14,7 @@ filter<T>(predicate: (value: T, index: number) => boolean, thisArg?: any): MonoT
 
 <dl>
   <dt><code>project</code></dt>
-  <dd>Функция фильтр, если возвращает <code>true</code> то значение проходит фильтрацию и идет дальше по потоку, если <code>false</code> то значение не попадет к подписчику</dd>
+  <dd>Функция критерий, если возвращает <code>true</code> то значение проходит фильтрацию и идет дальше по потоку, если <code>false</code> то значение не попадет к подписчику</dd>
 </dl>
 
 <dl>
@@ -34,3 +36,5 @@ const example = source.pipe(filter(num => num % 2 === 0));
 //output: "Even number: 2", "Even number: 4"
 const subscribe = example.subscribe(val => console.log(`Even number: ${val}`));
 ```
+
+> 📁 Исходный код: https://github.com/ReactiveX/rxjs/blob/master/src/internal/operators/filter.ts
