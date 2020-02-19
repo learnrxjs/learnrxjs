@@ -87,5 +87,3 @@ const example = source
 
 - 📰 Официальная документация: [tap](https://rxjs.dev/api/operators/tap)
 - 📁 Исходный код: https://github.com/ReactiveX/rxjs/blob/master/src/internal/operators/tap.ts
-
-
