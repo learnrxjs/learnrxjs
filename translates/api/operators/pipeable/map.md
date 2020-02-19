@@ -41,5 +41,5 @@ const subscribe = example.subscribe(val => console.log(val));
 ## Полезные ссылки
 
 - [Array.prototype.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
-
-> 📁 Исходный код: [https://github.com/ReactiveX/rxjs/blob/master/src/internal/operators/map.ts#L45](https://github.com/ReactiveX/rxjs/blob/master/src/internal/operators/map.ts#L45)
+- 📰 Официальная документация: [map](https://rxjs.dev/api/operators/map)
+- 📁 Исходный код: [https://github.com/ReactiveX/rxjs/blob/master/src/internal/operators/map.ts#L45](https://github.com/ReactiveX/rxjs/blob/master/src/internal/operators/map.ts#L45)

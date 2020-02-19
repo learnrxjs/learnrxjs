@@ -10,6 +10,11 @@ startWith<T, D>(...array: (SchedulerLike | T)[]): OperatorFunction<T, T | D>
 
 ## Примеры
 
+<dl>
+  <dt><code>array</code></dt>
+  <dd>spread массив значений</dd>
+</dl>
+
 ### Пример 1
 
 ```ts
@@ -39,5 +44,6 @@ const example = source.pipe(startWith(-3, -2, -1));
 //output: -3, -2, -1, 0, 1, 2....
 const subscribe = example.subscribe(val => console.log(val));
 ```
-
-> 📁 Исходный код: https://github.com/ReactiveX/rxjs/blob/master/src/internal/operators/startWith.ts
+## Полезные ссылки
+- 📰 Официальная документация: [startWith](https://rxjs.dev/api/operators/startWith)
+- 📁 Исходный код: https://github.com/ReactiveX/rxjs/blob/master/src/internal/operators/startWith.ts

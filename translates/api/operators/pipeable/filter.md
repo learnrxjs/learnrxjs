@@ -37,4 +37,6 @@ const example = source.pipe(filter(num => num % 2 === 0));
 const subscribe = example.subscribe(val => console.log(`Even number: ${val}`));
 ```
 
-> 📁 Исходный код: https://github.com/ReactiveX/rxjs/blob/master/src/internal/operators/filter.ts
+## Полезные ссылки
+- 📰 Официальная документация: [filter](https://rxjs.dev/api/operators/filter)
+- 📁 Исходный код: https://github.com/ReactiveX/rxjs/blob/master/src/internal/operators/filter.ts
