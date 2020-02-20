@@ -36,5 +36,3 @@ const subscribe = example.subscribe(val => console.log(val));
 
 - 📰 Официальная документация: [take](https://rxjs.dev/api/operators/take)
 - 📁 Исходный код: [https://github.com/ReactiveX/rxjs/blob/master/src/internal/operators/take.ts](https://github.com/ReactiveX/rxjs/blob/master/src/internal/operators/take.ts)
-
-
