@@ -10,6 +10,7 @@ bufferTime<T>(bufferTimeSpan: number): OperatorFunction<T, T[]>
 
 ## Параметры
 
+<!-- TODO: Добавить описание для параметра `bufferCreationInterval` -->
 <dl>
 	<dt><code>bufferTimeSpan</code></dt>
 	<dd>Интервал отправки данных в миллисекундах</dd>
@@ -33,4 +34,8 @@ const subscribe = example.subscribe(val =>
 );
 ```
 
+
 ## Полезные ссылки
+
+- 📰 Официальная документация: [bufferTime](https://rxjs.dev/api/operators/bufferTime)
+- 📁 Исходный код: [https://github.com/ReactiveX/rxjs/blob/master/src/internal/operators/bufferTime.ts](https://github.com/ReactiveX/rxjs/blob/master/src/internal/operators/bufferTime.ts)
