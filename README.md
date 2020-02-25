@@ -26,4 +26,7 @@
 
 - [API](translates/api/api.md)
 
+## TODO
+
+- [ ] Переименовать все файлы с DahedCase на CamelCase
 

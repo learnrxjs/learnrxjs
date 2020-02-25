@@ -20,7 +20,7 @@
 - [catchError](operators/pipeable/catch-error.md)
 - [concatMap](operators/pipeable/concactMap.md)
 - [debounceTime](operators/pipeable/debounce-time.md)
-- [distinctUntilChanged](operators/pipeable/distinc-until-changed.md)
+- [distinctUntilChanged](operators/pipeable/distinct-until-changed.md)
 - [filter](operators/pipeable/filter.md)
 - [map](operators/pipeable/map.md)
 - [mergeMap](operators/pipeable/merge-map.md)
