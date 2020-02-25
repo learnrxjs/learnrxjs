@@ -11,9 +11,11 @@ debounceTime(dueTime: number, scheduler: Scheduler): Observable
 ## Параметры
 
 - `dueTime`
+
     Количество секунд для "окна"
 
 - `scheduler`
+
     Тип планировщика
 
 ```typescript
