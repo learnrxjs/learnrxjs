@@ -11,12 +11,10 @@ debounceTime(dueTime: number, scheduler: Scheduler): Observable
 ## Параметры
 
 - `dueTime`
-
-Количество секунд для "окна"
+    Количество секунд для "окна"
 
 - `scheduler`
-
-Тип планировщика
+    Тип планировщика
 
 ```typescript
 // RxJS v6+
@@ -37,3 +35,9 @@ keyup$
   )
   .subscribe(console.log);
 ```
+
+## Полезные ссылки
+
+- 📰 Официальная документация: [debounceTime](https://rxjs.dev/api/operators/debounceTime)
+- 📁 Исходный код: https://github.com/ReactiveX/rxjs/blob/master/src/internal/operators/debounceTime.ts
+
