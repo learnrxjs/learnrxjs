@@ -60,3 +60,7 @@ subject.next({ age: 30 });
 // {name: 'Joe', age: 30, favoriteLanguage: 'JavaScript'}
 subject.next({ favoriteLanguage: 'JavaScript' });
 ```
+## Полезные ссылки
+
+- 📰 Официальная документация: [scan](https://rxjs.dev/api/operators/scan)
+- 📁 Исходный код: https://github.com/ReactiveX/rxjs/blob/master/src/internal/operators/scan.ts
