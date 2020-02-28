@@ -24,7 +24,7 @@
 
 - [Установка](translates/installation.md)
 
-- [API](translates/api/README.md)
+- [API](translates/api/api.md)
 
 ## TODO
 
