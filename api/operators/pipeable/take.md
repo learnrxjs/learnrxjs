@@ -6,7 +6,7 @@
 
 ## Сигнатура
 
-```ts
+```typescript
 take<T>(count: number): MonoTypeOperatorFunction<T>
 ```
 
@@ -19,7 +19,7 @@ take<T>(count: number): MonoTypeOperatorFunction<T>
 
 ## Примеры
 
-```ts
+```typescript
 // RxJS v6+
 import { of } from 'rxjs';
 import { take } from 'rxjs/operators';

@@ -4,7 +4,7 @@
 
 ## Сигнатура
 
-```ts
+```typescript
 tap<T>(
   nextOrObserver?: NextObserver<T> | ErrorObserver<T> | CompletionObserver<T> | ((x: T) => void),
   error?: (e: any) => void,
@@ -37,7 +37,7 @@ tap<T>(
 
 ### Пример 1: логирование перед и после оператора `map`
 
-```ts
+```typescript
 // RxJS v6+
 import { of } from 'rxjs';
 import { tap, map } from 'rxjs/operators';
@@ -57,7 +57,7 @@ const subscribe = example.subscribe(val => console.log(val));
 
 ### Пример 2: Использование `tap` передавая ему объект
 
-```ts
+```typescript
 // RxJS v6+
 import { of } from 'rxjs';
 import { tap, map } from 'rxjs/operators';

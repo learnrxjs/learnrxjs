@@ -106,4 +106,4 @@ shareWithReplay.subscribe(console.log);
 
 - 📰 Официальная документация: [shareReplay](https://rxjs.dev/api/operators/shareReplay)
 - 📁 Исходный код: https://github.com/ReactiveX/rxjs/blob/master/src/internal/operators/shareReplay.ts
-- [Subject-ы](/translates/overview/subjects.md)
+- [Subject-ы](/overviewd)

@@ -4,7 +4,7 @@
 
 ## Сигнатура
 
-```ts
+```typescript
 map<T, R>(project: (value: T, index: number) => R, thisArg?: any): OperatorFunction<T, R>
 ```
 
@@ -26,7 +26,7 @@ map<T, R>(project: (value: T, index: number) => R, thisArg?: any): OperatorFunct
 
 ## Примеры
 
-```ts
+```typescript
 // RxJS v6+
 import { from } from 'rxjs';
 import { map } from 'rxjs/operators';
