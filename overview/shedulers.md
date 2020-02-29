@@ -12,7 +12,7 @@
 
 В примере ниже, мы создаем обычный Observable отправляющий значения 1, 2, 3 синхронно и используя оператор `observeOn` с планировщиком `async` :
 
-```ts
+```typescript
 import { Observable, asyncScheduler } from 'rxjs';
 import { observeOn } from 'rxjs/operators';
 
@@ -53,7 +53,7 @@ done
 
 Заметьте что сообщения `got value ...` были получены после сообщения `just after subscribe`, это несколько отличается от поведения что мы видели в предыдущих разделах. Все из-за оператора `observeOn` который реализует между исходным Observable и подписчиком, еще одного подписчика. Давайте переименуем названия некоторых переменных, чтобы стало понятнее:
 
-```ts
+```typescript
 import { Observable, asyncScheduler } from 'rxjs';
 import { observeOn } from 'rxjs/operators';
 
@@ -85,7 +85,7 @@ console.log('just after subscribe');
 
 `proxyObserver` создается внутри оператора `observeOn(asyncScheduler)` и ниже схематично представлено то как выглядить метод `next`:
 
-```ts
+```typescript
 const proxyObserver = {
   next(val) {
     asyncScheduler.schedule(

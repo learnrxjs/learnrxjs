@@ -4,7 +4,7 @@
 
 ## Сигнатура
 
-```ts
+```typescript
 startWith<T, D>(...array: (SchedulerLike | T)[]): OperatorFunction<T, T | D>
 ```
 
@@ -17,7 +17,7 @@ startWith<T, D>(...array: (SchedulerLike | T)[]): OperatorFunction<T, T | D>
 
 ### Пример 1
 
-```ts
+```typescript
 // RxJS v6+
 import { startWith } from 'rxjs/operators';
 import { of } from 'rxjs';
@@ -32,7 +32,7 @@ const subscribe = example.subscribe(val => console.log(val));
 
 ### Пример 2: startWith с несколькими значениями
 
-```ts
+```typescript
 // RxJS v6+
 import { startWith } from 'rxjs/operators';
 import { interval } from 'rxjs';

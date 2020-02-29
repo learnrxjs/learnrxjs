@@ -6,7 +6,7 @@
 
 ## Сигнатура
 
-```ts
+```typescript
 filter<T>(predicate: (value: T, index: number) => boolean, thisArg?: any): MonoTypeOperatorFunction<T>
 ```
 
@@ -24,7 +24,7 @@ filter<T>(predicate: (value: T, index: number) => boolean, thisArg?: any): MonoT
 
 ## Примеры
 
-```ts
+```typescript
 // RxJS v6+
 import { from } from 'rxjs';
 import { filter } from 'rxjs/operators';

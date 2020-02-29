@@ -6,7 +6,7 @@
 
 ## Сигнатура
 
-```ts
+```typescript
 takeUntil<T>(notifier: Observable<any>): MonoTypeOperatorFunction<T>
 ```
 
@@ -16,7 +16,7 @@ takeUntil<T>(notifier: Observable<any>): MonoTypeOperatorFunction<T>
 
 ## Примеры
 
-```ts
+```typescript
 // RxJS v6+
 import { interval } from 'rxjs';
 import { takeUntil, delay } from 'rxjs/operators';

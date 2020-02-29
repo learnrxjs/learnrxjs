@@ -311,7 +311,7 @@ const observable = new Observable(function subscribe(subscriber) {
 
 На Observable `observable` (название переменной) в примере ниже можно *подписаться*, так:
 
-```ts
+```typescript
 observable.subscribe(x => console.log(x));
 ```
 
@@ -347,7 +347,7 @@ next*(error|complete)?
 
 В примере ниже Observable вызывает 3 раза Next и завершается:
 
-```ts
+```typescript
 import { Observable } from 'rxjs';
 
 const observable = new Observable(function subscribe(subscriber) {
@@ -360,7 +360,7 @@ const observable = new Observable(function subscribe(subscriber) {
 
 То о чем мы говорили выше, код ниже не доставит значение `4` подписчику:
 
-```ts
+```typescript
 import { Observable } from 'rxjs';
 
 const observable = new Observable(function subscribe(subscriber) {
@@ -420,7 +420,7 @@ subscription.unsubscribe();
 
 Например, отменять выполнение интервала запущенного с помощью `setInterval`:
 
-```ts
+```typescript
 const observable = new Observable(function subscribe(subscriber) {
   // Запоминаем ID интервала
   const intervalId = setInterval(() => {

@@ -4,7 +4,7 @@
 
 ## Сигнатура
 
-```ts
+```typescript
 catchError<T, O extends ObservableInput<any>>(selector: (err: any, caught: Observable<T>) => O): OperatorFunction<T, T | ObservedValueOf<O>>
 ```
 
@@ -19,7 +19,7 @@ catchError<T, O extends ObservableInput<any>>(selector: (err: any, caught: Obser
 
 ### Пример 1: Перехват ошибки
 
-```ts
+```typescript
 // RxJS v6+
 import { throwError, of } from 'rxjs';
 import { catchError } from 'rxjs/operators';
@@ -33,7 +33,7 @@ const subscribe = example.subscribe(val => console.log(val));
 
 ### Пример 2: Перехват reject-а Promise-а
 
-```ts
+```typescript
 // RxJS v6+
 import { timer, from, of } from 'rxjs';
 import { mergeMap, catchError } from 'rxjs/operators';
