@@ -25,6 +25,7 @@
       - [concat](api/operators/creation/concat.md)
       - [defer](api/operators/creation/defer.md)
       - [forkJoin](api/operators/creation/fork-join.md)
+      - [fromEvent](api/operators/creation/from-event.md)
       - [from](api/operators/creation/from.md)
       - [interval](api/operators/creation/interval.md)
       - [merge](api/operators/creation/merge.md)
