@@ -10,14 +10,14 @@ interval(period: number = 0, scheduler: SchedulerLike = async): Observable<numbe
 
 Создает Observable, который испускает значения в какой-то промежуток времени
 
-## Парметры
+## Параметры
 
 - `period`
-
+  
   Интервал в милисекундах
 
 - `scheduler`
-
+  
   Тип планировщика
 
 ## Примеры

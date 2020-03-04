@@ -19,7 +19,7 @@ concat<O extends ObservableInput<any>, R>(...observables: (SchedulerLike | O)[])
 ## Параметры
 
 - `observables`
-
+  
   Список Observable-ов
 
 ## Примеры

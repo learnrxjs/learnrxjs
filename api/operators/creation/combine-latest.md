@@ -21,15 +21,15 @@ combineLatest<O extends ObservableInput<any>, R>(
 ## Параметры
 
 - `sources`
-
+  
   Список Observable-ов значения которых будут агрегироваться
 
 - ~~`resultSelector`~~ *Depricated*
-
+  
   Функция мутирующая поступающие значения. Вместо этого аргумента лучше использовать оператор [`map`](api/operators/pipeable/map)
 
 - ~~`scheduler`~~ *Depricated*
-
+  
   Тип планировщика. Вместо этого аргумента лучше использовать операторы `subscribeOn` или `observeOn`
 
 ## Примеры
@@ -99,4 +99,3 @@ combineLatest(addOneClick$('red'), addOneClick$('black')).subscribe(
 
 - 📰 Официальная документация: [combineLatest](https://rxjs.dev/api/index/function/combineLatest)
 - 📁 Исходный код: https://github.com/ReactiveX/rxjs/blob/6.5.4/src/internal/observable/combineLatest.ts
-
