@@ -114,5 +114,3 @@ const subscribe = mapSource.subscribe(val => console.log(val));
 
 - 📰 Официальная документация: [from](https://rxjs.dev/api/index/function/from)
 - 📁 Исходный код: https://github.com/ReactiveX/rxjs/blob/6.5.4/src/internal/observable/from.ts
-
-

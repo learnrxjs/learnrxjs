@@ -47,7 +47,7 @@ clicksOrTimer.subscribe(x => console.log(x));
 // as they occur.
 ```
 
-### Пример 2: Использование параметра `concurrentrly`
+### Пример 2: Использование параметра `concurrently`
 
 ```typescript
 import { merge, interval } from 'rxjs';
