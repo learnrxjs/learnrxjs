@@ -8,7 +8,7 @@ combineAll<T, R>(project?: (...values: any[]) => R): OperatorFunction<T, R>
 
 ### Описание
 
-Когда основной Observable завершится, использует [combineLatest](creation/combine-latest.md), а в качестве параметров, полученные Observable-ы.
+Когда основной Observable завершится, использует [combineLatest](api/operators/creation/combine-latest), а в качестве параметров, полученные Observable-ы.
 
 ## Параметры
 
