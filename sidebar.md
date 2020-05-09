@@ -36,6 +36,7 @@
      - [bufferTime](api/operators/pipeable/buffer-time.md)
      - [catchError](api/operators/pipeable/catch-error.md)
      - [concatMap](api/operators/pipeable/concat-map.md)
+     - [combineAll](api/operators/pipeable/combineAll.md)
      - [debounceTime](api/operators/pipeable/debounce-time.md)
      - [distinctUntilChanged](api/operators/pipeable/distinct-until-changed.md)
      - [filter](api/operators/pipeable/filter.md)
