@@ -8,7 +8,7 @@ combineAll<T, R>(project?: (...values: any[]) => R): OperatorFunction<T, R>
 
 ### Описание
 
-Когда основной Observable завершится, использует [combineLatest](../creation/combine-latest.md), а в качестве параметров, полученные Observable-ы.
+Когда основной Observable завершится, использует [combineLatest](creation/combine-latest.md), а в качестве параметров, полученные Observable-ы.
 
 ## Параметры
 
@@ -58,4 +58,4 @@ example$
 ## Полезные ссылки
 
 - 📰 Официальная документация: [CombineAll](https://rxjs.dev/api/operators/combineAll)
-- 📁 Исходный код: https://github.com/reactivex/rxjs/tree/6.5.4/src/internal/operators/combineAll.ts#
+- 📁 Исходный код: https://github.com/reactivex/rxjs/tree/6.5.4/src/internal/operators/combineAll.ts
