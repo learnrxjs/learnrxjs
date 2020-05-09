@@ -7,7 +7,7 @@ Observable это ленивая реализация Push стратегии и
 | Pull | [Function](https://developer.mozilla.org/en-US/docs/Glossary/Function)                                  | [Interator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols) |
 | Push | [Promise](https://developer.mozilla.org/en-US/docs/Mozilla/JavaScript_code_modules/Promise.jsm/Promise) | [Observable](https://rxjs.dev/class/es6/Observable.js~Observable.html)                             |
 
-Например, Obsevable ниже последовательно отправит `1`, `2`, `3`, после того как на него подпишутся, через секунду будет отправлено `4`
+Например, Obsevable ниже последовательно отправит `1`, `2`, `3`, после того как на него подпишутся, через секунду будет отправлено `4`:
 
 ```js
 import { Observable } from 'rxjs';

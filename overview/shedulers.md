@@ -140,5 +140,3 @@ const proxyObserver = {
 Используйте `observeOn` когда вам нужно отложить выполнение следующего оператора
 
 Операторы работающие со временем такие как `bufferTime`, `debounceTime`, `delay`, `auditTime`, `sampleTime`, `throttleTime`, `timeInterval`, `timeout`, `timeoutWith`, `windowTime`, все в качестве последнего аргумента принимают планировщик, по умолчанию используются `asyncScheduler`.
-
-
