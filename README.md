@@ -6,7 +6,6 @@
 
 ## TODO
 
-- [ ] Переименовать все файлы с DashedCase на CamelCase
 - [ ] Описание всегда писать после сигнатуры
 
 <a href='https://waliot.com'>
