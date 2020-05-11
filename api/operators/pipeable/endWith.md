@@ -10,6 +10,10 @@ endWith<T>(...array: (SchedulerLike | T)[]): MonoTypeOperatorFunction<T>
 
 Отправляет полученные значения после того как основной поток завершится.
 
+## Параметры
+
+Параметров нет
+
 ## Примеры
 
 ```typescript
