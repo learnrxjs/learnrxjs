@@ -7,7 +7,10 @@
 ## TODO
 
 - [ ] Описание всегда писать после сигнатуры
+- [ ] Лучше использовать термин "поток" чем Observable
 
 <a href='https://waliot.com'>
   <img src='assets/waliot.svg' width='200'>
 </a>
+
+Автор перевода [Sam Bulatov](https://github.com/stylesam)
