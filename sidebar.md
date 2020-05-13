@@ -32,7 +32,7 @@
       - [of](api/operators/creation/of.md)
 
     - Потоковые
-     
+
      - [bufferTime](api/operators/pipeable/bufferTime.md)
      - [catchError](api/operators/pipeable/catchError.md)
      - [concatAll](api/operators/pipeable/concatAll.md)
@@ -40,9 +40,11 @@
      - [combineAll](api/operators/pipeable/combineAll.md)
      - [debounceTime](api/operators/pipeable/debounceTime.md)
      - [distinctUntilChanged](api/operators/pipeable/distinctUntilChanged.md)
+     - [endWith](api/operators/pipeable/endWith.md)
      - [filter](api/operators/pipeable/filter.md)
      - [map](api/operators/pipeable/map.md)
      - [mergeMap](api/operators/pipeable/mergeMap.md)
+     - [pairwise](api/operators/pipeable/pairwise.md)
      - [scan](api/operators/pipeable/scan.md)
      - [share](api/operators/pipeable/share.md)
      - [shareReplay](api/operators/pipeable/shareReplay.md)
