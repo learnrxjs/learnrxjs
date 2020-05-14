@@ -41,7 +41,7 @@
 - [x] distinctUntilChanged
 - [ ] distinctUntilKeyChanged
 - [x] endWith
-- [ ] tap / do
+- [x] tap / do
 - [ ] empty
 - [ ] every
 - [ ] exhaustMap
