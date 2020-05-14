@@ -44,7 +44,7 @@
 - [x] tap / do
 - [ ] empty
 - [ ] every
-- [ ] exhaustMap
+- [x] exhaustMap
 - [ ] expand
 - [x] filter
 - [ ] finalize / finally

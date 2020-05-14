@@ -42,6 +42,7 @@
      - [delay](api/operators/pipeable/delay.md)
      - [distinctUntilChanged](api/operators/pipeable/distinctUntilChanged.md)
      - [endWith](api/operators/pipeable/endWith.md)
+     - [exhaustMap](api/operators/pipeable/exhaustMap.md)
      - [filter](api/operators/pipeable/filter.md)
      - [map](api/operators/pipeable/map.md)
      - [mergeMap](api/operators/pipeable/mergeMap.md)
