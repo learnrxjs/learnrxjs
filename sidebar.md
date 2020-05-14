@@ -39,6 +39,7 @@
      - [concatMap](api/operators/pipeable/concatMap.md)
      - [combineAll](api/operators/pipeable/combineAll.md)
      - [debounceTime](api/operators/pipeable/debounceTime.md)
+     - [delay](api/operators/pipeable/delay.md)
      - [distinctUntilChanged](api/operators/pipeable/distinctUntilChanged.md)
      - [endWith](api/operators/pipeable/endWith.md)
      - [filter](api/operators/pipeable/filter.md)

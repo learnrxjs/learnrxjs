@@ -35,7 +35,7 @@
 - [x] debounceTime
 - [ ] defaultIfEmpty
 - [x] defer
-- [ ] delay
+- [x] delay
 - [ ] delayWhen
 - [ ] distinct
 - [x] distinctUntilChanged
