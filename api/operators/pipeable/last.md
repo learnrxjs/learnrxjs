@@ -24,7 +24,7 @@ last<T, D>(predicate?: (value: T, index: number, source: Observable<T>) => boole
 
 ## Примеры
 
-### Пример 1: Простейшее использования
+### Пример 1: Простейшее использование
 
 ```typescript
 // RxJS v6+
@@ -60,7 +60,7 @@ const subscribeTwo = exampleTwo.subscribe(val =>
 );
 ```
 
-### Пример 3: Использование функции `predicate` и значения по умолчанию
+### Пример 3: Использование функции `predicate` и значение по умолчанию
 
 ```typescript
 // RxJS v6+
