@@ -58,7 +58,7 @@
 - [ ] iif
 - [ ] ignoreElements
 - [x] interval
-- [ ] last
+- [x] last
 - [ ] let
 - [x] map
 - [ ] mapTo
