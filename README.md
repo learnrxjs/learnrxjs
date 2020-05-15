@@ -49,7 +49,7 @@
 - [x] filter
 - [ ] finalize / finally
 - [x] find
-- [ ] first
+- [x] first
 - [x] forkJoin
 - [x] from
 - [x] fromEvent
