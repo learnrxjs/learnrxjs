@@ -44,6 +44,7 @@
      - [endWith](api/operators/pipeable/endWith.md)
      - [exhaustMap](api/operators/pipeable/exhaustMap.md)
      - [filter](api/operators/pipeable/filter.md)
+     - [find](api/operators/pipeable/find.md)
      - [map](api/operators/pipeable/map.md)
      - [mergeMap](api/operators/pipeable/mergeMap.md)
      - [pairwise](api/operators/pipeable/pairwise.md)

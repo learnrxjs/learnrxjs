@@ -48,7 +48,7 @@
 - [ ] expand
 - [x] filter
 - [ ] finalize / finally
-- [ ] find
+- [x] find
 - [ ] first
 - [x] forkJoin
 - [x] from
