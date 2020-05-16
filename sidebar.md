@@ -27,6 +27,7 @@
       - [forkJoin](api/operators/creation/forkJoin.md)
       - [from](api/operators/creation/from.md)
       - [fromEvent](api/operators/creation/fromEvent.md)
+      - [iif](api/operators/creation/iif.md)
       - [interval](api/operators/creation/interval.md)
       - [merge](api/operators/creation/merge.md)
       - [of](api/operators/creation/of.md)

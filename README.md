@@ -55,7 +55,7 @@
 - [x] fromEvent
 - [ ] generate
 - [ ] groupBy
-- [ ] iif
+- [x] iif
 - [ ] ignoreElements
 - [x] interval
 - [x] last
