@@ -84,7 +84,7 @@
 - [x] share
 - [x] shareReplay
 - [ ] single
-- [ ] skip
+- [x] skip
 - [ ] skipUntil
 - [ ] skipWhile
 - [x] startWith

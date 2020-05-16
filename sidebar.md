@@ -54,6 +54,7 @@
      - [scan](api/operators/pipeable/scan.md)
      - [share](api/operators/pipeable/share.md)
      - [shareReplay](api/operators/pipeable/shareReplay.md)
+     - [skip](api/operators/pipeable/skip.md)
      - [startWith](api/operators/pipeable/startWith.md)
      - [switchMap](api/operators/pipeable/switchMap.md)
      - [take](api/operators/pipeable/take.md)
