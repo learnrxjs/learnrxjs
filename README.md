@@ -13,6 +13,8 @@
   <img src='assets/waliot.svg' width='200'>
 </a>
 
+Автор перевода [Sam Bulatov](https://github.com/stylesam)
+
 ## Переведенные операторы
 
 - [x] ajax
@@ -43,7 +45,7 @@
 - [x] endWith
 - [x] tap / do
 - [ ] empty
-- [ ] every
+- [x] every
 - [x] exhaustMap
 - [ ] expand
 - [x] filter
@@ -110,5 +112,3 @@
 - [ ] windowWhen
 - [ ] withLatestFrom
 - [ ] zip
-
-Автор перевода [Sam Bulatov](https://github.com/stylesam)

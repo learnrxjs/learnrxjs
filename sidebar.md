@@ -44,6 +44,7 @@
      - [distinct](api/operators/pipeable/distinct.md)
      - [distinctUntilChanged](api/operators/pipeable/distinctUntilChanged.md)
      - [endWith](api/operators/pipeable/endWith.md)
+     - [every](api/operators/pipeable/every.md)
      - [exhaustMap](api/operators/pipeable/exhaustMap.md)
      - [filter](api/operators/pipeable/filter.md)
      - [find](api/operators/pipeable/find.md)
