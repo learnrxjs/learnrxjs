@@ -41,6 +41,7 @@
      - [combineAll](api/operators/pipeable/combineAll.md)
      - [debounceTime](api/operators/pipeable/debounceTime.md)
      - [delay](api/operators/pipeable/delay.md)
+     - [distinct](api/operators/pipeable/distinct.md)
      - [distinctUntilChanged](api/operators/pipeable/distinctUntilChanged.md)
      - [endWith](api/operators/pipeable/endWith.md)
      - [exhaustMap](api/operators/pipeable/exhaustMap.md)

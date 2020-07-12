@@ -37,7 +37,7 @@
 - [x] defer
 - [x] delay
 - [ ] delayWhen
-- [ ] distinct
+- [x] distinct
 - [x] distinctUntilChanged
 - [ ] distinctUntilKeyChanged
 - [x] endWith
