@@ -5,7 +5,10 @@
 ## Сигнатура
 
 ```typescript
-distinctUntilChanged<T, K>(compare?: (x: K, y: K) => boolean, keySelector?: (x: T) => K): MonoTypeOperatorFunction<T>
+distinctUntilChanged<T, K>(
+  compare?: (x: K, y: K) => boolean,
+  keySelector?: (x: T) => K
+): MonoTypeOperatorFunction<T>
 ```
 
 > 💡 distinctUntilChanged по умолчанию использует оператор `===`, в этом случае ссылки на объекты должны совпадать
