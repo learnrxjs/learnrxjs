@@ -49,7 +49,7 @@
 - [x] exhaustMap
 - [ ] expand
 - [x] filter
-- [ ] finalize / finally
+- [x] finalize / finally
 - [x] find
 - [x] first
 - [x] forkJoin

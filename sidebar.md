@@ -47,6 +47,7 @@
      - [every](api/operators/pipeable/every.md)
      - [exhaustMap](api/operators/pipeable/exhaustMap.md)
      - [filter](api/operators/pipeable/filter.md)
+     - [finalize](api/operators/pipeable/finalize.md)
      - [find](api/operators/pipeable/find.md)
      - [first](api/operators/pipeable/first.md)
      - [last](api/operators/pipeable/last.md)
