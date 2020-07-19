@@ -13,7 +13,7 @@
   <img src='assets/waliot.svg' width='200'>
 </a>
 
-Автор перевода [Sam Bulatov](https://github.com/stylesam)
+Автор перевода [Sam Bulatov](https://github.com/mephistophelius)
 
 ## Переведенные операторы
 
