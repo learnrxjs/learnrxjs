@@ -10,13 +10,10 @@ hello(str: string, scheduler)
 
 ## Параметры
 
-- `str`
-  
-  Пример описания оператора
-
-- ~~`scheduler`~~ *Depricated*
-
-  Параметр с флагом depricated
+| Название | Описание |
+|-|-|
+| `str` | Пример описания аргумента |
+| ~~`scheduler`~~ *Depricated* | Параметр с флагом depricated |
 
 ## Примеры
 
