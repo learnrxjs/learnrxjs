@@ -35,7 +35,7 @@
 - [ ] create
 - [ ] debounce
 - [x] debounceTime
-- [ ] defaultIfEmpty
+- [x] defaultIfEmpty
 - [x] defer
 - [x] delay
 - [ ] delayWhen

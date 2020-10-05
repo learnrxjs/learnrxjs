@@ -40,6 +40,7 @@
      - [concatMap](api/operators/pipeable/concatMap.md)
      - [combineAll](api/operators/pipeable/combineAll.md)
      - [debounceTime](api/operators/pipeable/debounceTime.md)
+     - [defaultIfEmpty](api/operators/pipeable/defaultIfEmpty.md)
      - [delay](api/operators/pipeable/delay.md)
      - [distinct](api/operators/pipeable/distinct.md)
      - [distinctUntilChanged](api/operators/pipeable/distinctUntilChanged.md)
