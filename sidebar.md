@@ -56,6 +56,7 @@
      - [mergeMap](api/operators/pipeable/mergeMap.md)
      - [mergeAll](api/operators/pipeable/mergeAll.md)
      - [pairwise](api/operators/pipeable/pairwise.md)
+     - [pluck](api/operators/pipeable/pluck.md)
      - [scan](api/operators/pipeable/scan.md)
      - [share](api/operators/pipeable/share.md)
      - [shareReplay](api/operators/pipeable/shareReplay.md)

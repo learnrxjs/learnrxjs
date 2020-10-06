@@ -72,7 +72,7 @@
 - [x] of
 - [ ] partition
 - [x] pairwise
-- [ ] pluck
+- [x] pluck
 - [ ] publish
 - [ ] race
 - [ ] range
