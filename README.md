@@ -102,7 +102,7 @@
 - [ ] timeInterval
 - [ ] timeout
 - [ ] timeoutWith
-- [ ] timer
+- [x] timer
 - [ ] toArray
 - [ ] toPromise
 - [ ] window
