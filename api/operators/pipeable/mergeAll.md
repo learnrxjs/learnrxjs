@@ -32,6 +32,6 @@ firstOrder.subscribe(x => console.log(x));
 
 ## Полезные ссылки
 
-- 📰 Официальная документация: [сссс](https://rxjs.dev/api/operators/mergeAll)
+- 📰 Официальная документация: [mergeAll](https://rxjs.dev/api/operators/mergeAll)
 - 📁 Исходный код: https://github.com/ReactiveX/rxjs/blob/master/src/internal/operators/mergeAll.ts
 

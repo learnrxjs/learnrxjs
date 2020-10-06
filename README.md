@@ -63,7 +63,7 @@
 - [x] last
 - [ ] let
 - [x] map
-- [ ] mapTo
+- [x] mapTo
 - [x] merge
 - [x] mergeAll
 - [x] mergeMap / flatMap

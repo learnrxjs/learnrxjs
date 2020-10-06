@@ -53,6 +53,7 @@
      - [first](api/operators/pipeable/first.md)
      - [last](api/operators/pipeable/last.md)
      - [map](api/operators/pipeable/map.md)
+     - [mapTo](api/operators/pipeable/mapTo.md)
      - [mergeMap](api/operators/pipeable/mergeMap.md)
      - [mergeAll](api/operators/pipeable/mergeAll.md)
      - [pairwise](api/operators/pipeable/pairwise.md)
