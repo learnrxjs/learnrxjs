@@ -65,7 +65,7 @@
 - [x] map
 - [ ] mapTo
 - [x] merge
-- [ ] mergeAll
+- [x] mergeAll
 - [x] mergeMap / flatMap
 - [ ] mergeScan
 - [ ] multicast

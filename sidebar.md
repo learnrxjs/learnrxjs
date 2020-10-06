@@ -54,6 +54,7 @@
      - [last](api/operators/pipeable/last.md)
      - [map](api/operators/pipeable/map.md)
      - [mergeMap](api/operators/pipeable/mergeMap.md)
+     - [mergeAll](api/operators/pipeable/mergeAll.md)
      - [pairwise](api/operators/pipeable/pairwise.md)
      - [scan](api/operators/pipeable/scan.md)
      - [share](api/operators/pipeable/share.md)
