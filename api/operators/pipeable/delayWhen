@@ -45,12 +45,3 @@ delayedClicks.subscribe(x => console.log(x));
 
 - 📰 Официальная документация: [delayWhen](https://rxjs.dev/api/operators/delayWhen)
 - 📁 Исходный код: https://github.com/ReactiveX/rxjs/blob/master/src/internal/operators/pipeable/delayWhen.ts
-- [delay](https://rxjs.dev/api/operators/delay)
-- [throttle](https://rxjs.dev/api/operators/throttle)
-- [throttleTime](https://rxjs.dev/api/operators/throttleTime)
-- [debounce](https://rxjs.dev/api/operators/debounce)
-- [debounceTime](https://rxjs.dev/api/operators/debounceTime)
-- [sample](https://rxjs.dev/api/operators/sample)
-- [sampleTime](https://rxjs.dev/api/operators/sampleTime)
-- [audit](https://rxjs.dev/api/operators/audit)
-- [auditTime](https://rxjs.dev/api/operators/auditTime)
