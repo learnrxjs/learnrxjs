@@ -14,7 +14,7 @@ ignoreElements(): OperatorFunction<any, never>
 
 ## Примеры
 
-Игнорирует выделяемые значения, реагирует на завершение наблюдаемого. 
+Игнорирует выделяемые значения, реагирует на завершение Observable. 
 
 ```typescript
 import { of } from 'rxjs';
