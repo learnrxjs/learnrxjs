@@ -38,7 +38,7 @@
 - [x] defaultIfEmpty
 - [x] defer
 - [x] delay
-- [ ] delayWhen
+- [x] delayWhen
 - [x] distinct
 - [x] distinctUntilChanged
 - [ ] distinctUntilKeyChanged
