@@ -20,10 +20,6 @@ debounce<T>(durationSelector: (value: T) => SubscribableOrPromise<any>): MonoTyp
 |-|-|
 | durationSelector | Функция, которая получает значение из источника Observable для вычисления продолжительности таймаута для каждого значения источника, возвращаемого в качестве Observable или Promise. |
 
-## Возврат
-
-`MonoTypeOperatorFunction<T>` : Observable, который задерживает выбросы источника Observable на заданную Observable длительность, возвращаемый `durationSelector`, и который может понизить некоторые значения, если они встречаются слишком часто.
-
 ## Примеры
 
 Произвести последний клик после серии кликов.
@@ -41,7 +37,3 @@ result.subscribe(x => console.log(x));
 
 - 📰 Официальная документация: [debounce](https://rxjs.dev/api/operators/debounce)
 - 📁 Исходный код: https://github.com/ReactiveX/rxjs/blob/master/src/internal/operators/pipeable/debounce.ts
-- [audit](https://rxjs.dev/api/operators/audit)
-- [debounceTime](https://rxjs.dev/api/operators/debounceTime)
-- [delayWhen](https://rxjs.dev/api/operators/delayWhen)
-- [throttle](https://rxjs.dev/api/operators/throttle)
