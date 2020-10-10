@@ -44,6 +44,7 @@
      - [defaultIfEmpty](api/operators/pipeable/defaultIfEmpty.md)
      - [delay](api/operators/pipeable/delay.md)
      - [delayWhen](api/operators/pipeable/delayWhen.md)
+     - [debounce](api/operators/pipeable/debounce.md)
      - [distinct](api/operators/pipeable/distinct.md)
      - [distinctUntilChanged](api/operators/pipeable/distinctUntilChanged.md)
      - [endWith](api/operators/pipeable/endWith.md)
