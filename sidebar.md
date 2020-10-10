@@ -54,6 +54,7 @@
      - [finalize](api/operators/pipeable/finalize.md)
      - [find](api/operators/pipeable/find.md)
      - [first](api/operators/pipeable/first.md)
+     - [ignoreElements](api/operators/pipeable/ignoreElements.md)
      - [last](api/operators/pipeable/last.md)
      - [map](api/operators/pipeable/map.md)
      - [mapTo](api/operators/pipeable/mapTo.md)
