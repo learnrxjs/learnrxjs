@@ -33,7 +33,7 @@
 - [x] concatMap
 - [ ] concatMapTo
 - [ ] create
-- [ ] debounce
+- [х] debounce
 - [x] debounceTime
 - [x] defaultIfEmpty
 - [x] defer
