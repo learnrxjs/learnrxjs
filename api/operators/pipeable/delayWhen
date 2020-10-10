@@ -11,7 +11,7 @@ delayWhen<T>(delayDurationSelector: (value: T, index: number) => Observable<any>
 ## Описание
 
 Это похоже на delay, но временной промежуток длительности задержки определяется вторым Observable.
-https://rxjs.dev/assets/images/marble-diagrams/delayWhen.png
+![alt text](https://rxjs.dev/assets/images/marble-diagrams/delayWhen.png "delayWhen description")
 `delayWhen` сдвигает время каждое выданное значение из источника Observable на временной промежуток, определённый другим Observable. Когда источник выдает значение, вызывается функция `delayDurationSelector` со значением источника в качестве аргумента и должна возвращать значение Observable, называемое "длительность" ("duration") Observable. Значение источника выдается на выводе Observable только в том случае, если параметр Observable выдает значение или завершает период времени. Завершение работы нотификатора, вызывающего выдачу исходного значения, является недействительным явлением и в последующих версиях будет удалено.
 Опционально, `delayWhen` принимает второй аргумент, `subscriptionDelay`, которая является Observable. Когда `subscriptionDelay` выдаёт своё первое значение или завершается, источник Observable подписывается и начинает вести себя так, как описано в предыдущей строке. Если `subscriptionDelay` не предоставляется, `delayWhen` подписывается на источник Observable, как только выходные данные Observable подписываются.
 
