@@ -58,7 +58,7 @@
 - [ ] generate
 - [ ] groupBy
 - [x] iif
-- [ ] ignoreElements
+- [x] ignoreElements
 - [x] interval
 - [x] last
 - [ ] let
