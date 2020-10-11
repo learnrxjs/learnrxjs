@@ -47,6 +47,7 @@
      - [delayWhen](api/operators/pipeable/delayWhen.md)
      - [distinct](api/operators/pipeable/distinct.md)
      - [distinctUntilChanged](api/operators/pipeable/distinctUntilChanged.md)
+     - [distinctUntilKeyChanged](api/operators/pipeable/distinctUntilKeyChanged.md)
      - [endWith](api/operators/pipeable/endWith.md)
      - [every](api/operators/pipeable/every.md)
      - [exhaustMap](api/operators/pipeable/exhaustMap.md)

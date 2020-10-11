@@ -41,7 +41,7 @@
 - [x] delayWhen
 - [x] distinct
 - [x] distinctUntilChanged
-- [ ] distinctUntilKeyChanged
+- [x] distinctUntilKeyChanged
 - [x] endWith
 - [x] tap / do
 - [ ] empty
