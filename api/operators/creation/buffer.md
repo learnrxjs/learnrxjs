@@ -36,11 +36,11 @@ buffered.subscribe(x => console.log(x));
 
 ## Полезные ссылки
 
-- 📰 bufferCount
-- 📰 bufferTime
-- 📰 bufferToggle
-- 📰 bufferWhen
-- 📰 window
+- [bufferCount](api/operators/pipeable/bufferTime.md)
+- [bufferTime](api/operators/pipeable/bufferTime.md)
+- [bufferToggle](api/operators/pipeable/bufferToggle.md)
+- [bufferWhen](api/operators/pipeable/bufferWhen.md)
+- [window](api/operators/pipeable/window.md)
 
 - 📰 Официальная документация: [OPERATOR_NAME](OPERATOR_URL)
 - 📁 Исходный код: https://github.com/ReactiveX/rxjs/blob/master/src/internal/operators/OPERATOR_NAME.ts
