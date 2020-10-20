@@ -22,7 +22,7 @@
 - [x] ajax
 - [ ] audit
 - [ ] auditTime
-- [ ] buffer
+- [x] buffer
 - [ ] bufferCount
 - [x] bufferTime
 - [ ] bufferToggle
