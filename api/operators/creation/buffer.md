@@ -15,9 +15,6 @@ buffer<T>(closingNotifier: Observable<any>): OperatorFunction<T, T[]>
 |-|-|
 | `closingNotifier` | Объект класса Observable который сигнализирует какой буфер будет использован для вывода |
 
-## Возвращаемое значение
-OperatorFunction<T, T[]>: объект Observable содержащий буферы, которые являются массивами значений
-
 ## Примеры
 
 ### Пример 1
@@ -36,12 +33,5 @@ buffered.subscribe(x => console.log(x));
 ```
 
 ## Полезные ссылки
-
-- [bufferCount](api/operators/pipeable/bufferTime.md)
-- [bufferTime](api/operators/pipeable/bufferTime.md)
-- [bufferToggle](api/operators/pipeable/bufferToggle.md)
-- [bufferWhen](api/operators/pipeable/bufferWhen.md)
-- [window](api/operators/pipeable/window.md)
-
 - 📰 Официальная документация: [OPERATOR_NAME](OPERATOR_URL)
 - 📁 Исходный код: https://github.com/ReactiveX/rxjs/blob/master/src/internal/operators/OPERATOR_NAME.ts
