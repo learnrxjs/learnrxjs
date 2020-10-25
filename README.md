@@ -21,7 +21,7 @@
 
 - [x] ajax
 - [ ] audit
-- [ ] auditTime
+- [x] auditTime
 - [x] buffer
 - [ ] bufferCount
 - [x] bufferTime
