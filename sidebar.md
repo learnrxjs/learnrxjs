@@ -21,6 +21,7 @@
     - Порождающие
     
       - [ajax](api/operators/creation/ajax.md)
+      - [buffer](api/operators/creation/buffer.md)
       - [combineLatest](api/operators/creation/combineLatest.md)
       - [concat](api/operators/creation/concat.md)
       - [defer](api/operators/creation/defer.md)

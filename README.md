@@ -8,6 +8,8 @@
 
 - [ ] Описание всегда писать после сигнатуры
 - [ ] Лучше использовать термин "поток" чем Observable
+- [ ] Добавить правила по написанию коммитов
+- [ ] Добавить правила по названию веток
 
 <a href='https://waliot.com'>
   <img src='assets/waliot.svg' width='200'>
@@ -20,7 +22,7 @@
 - [x] ajax
 - [ ] audit
 - [ ] auditTime
-- [ ] buffer
+- [x] buffer
 - [ ] bufferCount
 - [x] bufferTime
 - [ ] bufferToggle
