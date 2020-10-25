@@ -20,7 +20,7 @@
 ## Переведенные операторы
 
 - [x] ajax
-- [ ] audit
+- [x] audit
 - [ ] auditTime
 - [x] buffer
 - [ ] bufferCount
