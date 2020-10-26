@@ -35,6 +35,6 @@ result.subscribe(x => console.log(x));
 
 ## Полезные ссылки
 
-- 📰 Официальная документация: [OPERATOR_NAME](OPERATOR_URL)
-- 📁 Исходный код: https://github.com/ReactiveX/rxjs/blob/master/src/internal/operators/OPERATOR_NAME.ts
+- 📰 Официальная документация: [audit](https://rxjs.dev/api/operators/audit)
+- 📁 Исходный код: https://github.com/ReactiveX/rxjs/blob/master/src/internal/operators/audit.ts
  
