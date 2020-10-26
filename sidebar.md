@@ -33,6 +33,7 @@
       - [timer](api/operators/creation/timer.md)
       - [merge](api/operators/creation/merge.md)
       - [of](api/operators/creation/of.md)
+      - [zip](api/operators/pipeable/zip.md)
 
     - Потоковые
 
@@ -74,4 +75,3 @@
      - [take](api/operators/pipeable/take.md)
      - [takeUntil](api/operators/pipeable/takeUntil.md)
      - [tap](api/operators/pipeable/tap.md)
-     - [zip](api/operators/pipeable/zip.md)
