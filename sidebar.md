@@ -76,5 +76,6 @@
      - [switchMap](api/operators/pipeable/switchMap.md)
      - [take](api/operators/pipeable/take.md)
      - [takeUntil](api/operators/pipeable/takeUntil.md)
+     - [throw](api/operators/pipeable/throw.md)
      - [tap](api/operators/pipeable/tap.md)
      - [toArray](api/operators/pipeable/toArray.md)
