@@ -35,7 +35,9 @@ const buffered = clicks.pipe(bufferCount(2));
 buffered.subscribe(x => console.log(x));
 ```
 
-### Пример 2: На каждый клик выдавать последние два клика в виде массива
+### Пример 2
+
+На каждый клик выдавать последние два клика в виде массива
 
 ```typescript
 // RxJS v6+
