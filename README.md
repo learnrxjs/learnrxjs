@@ -23,7 +23,7 @@
 - [ ] audit
 - [ ] auditTime
 - [x] buffer
-- [ ] bufferCount
+- [x] bufferCount
 - [x] bufferTime
 - [ ] bufferToggle
 - [ ] bufferWhen
