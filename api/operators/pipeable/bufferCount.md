@@ -49,6 +49,6 @@ buffered.subscribe(x => console.log(x));
 
 ## Полезные ссылки
 
-- 📰 Официальная документация: [OPERATOR_NAME](OPERATOR_URL)
-- 📁 Исходный код: https://github.com/ReactiveX/rxjs/blob/master/src/internal/operators/OPERATOR_NAME.ts
+- 📰 Официальная документация: [bufferCount](https://rxjs.dev/api/operators/bufferCount)
+- 📁 Исходный код: https://github.com/ReactiveX/rxjs/blob/master/src/internal/operators/bufferCount.ts
  
