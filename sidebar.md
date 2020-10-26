@@ -33,10 +33,12 @@
       - [timer](api/operators/creation/timer.md)
       - [merge](api/operators/creation/merge.md)
       - [of](api/operators/creation/of.md)
+      - [zip](api/operators/pipeable/zip.md)
 
     - Потоковые
 
      - [auditTime](api/operators/pipeable/auditTime.md)
+     - [audit](api/operators/pipeable/audit.md)
      - [bufferCount](api/operators/creation/bufferCount.md)
      - [bufferTime](api/operators/pipeable/bufferTime.md)
      - [catchError](api/operators/pipeable/catchError.md)
@@ -75,3 +77,4 @@
      - [take](api/operators/pipeable/take.md)
      - [takeUntil](api/operators/pipeable/takeUntil.md)
      - [tap](api/operators/pipeable/tap.md)
+     - [toArray](api/operators/pipeable/toArray.md)

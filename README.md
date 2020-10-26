@@ -105,7 +105,7 @@
 - [ ] timeout
 - [ ] timeoutWith
 - [x] timer
-- [ ] toArray
+- [x] toArray
 - [ ] toPromise
 - [ ] window
 - [ ] windowCount
@@ -113,4 +113,4 @@
 - [ ] windowToggle
 - [ ] windowWhen
 - [ ] withLatestFrom
-- [ ] zip
+- [x] zip
