@@ -37,6 +37,7 @@
     - Потоковые
 
      - [auditTime](api/operators/pipeable/auditTime.md)
+     - [bufferCount](api/operators/creation/bufferCount.md)
      - [bufferTime](api/operators/pipeable/bufferTime.md)
      - [catchError](api/operators/pipeable/catchError.md)
      - [concatAll](api/operators/pipeable/concatAll.md)
