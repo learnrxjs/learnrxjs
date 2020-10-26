@@ -1,4 +1,4 @@
-# bufferCount
+# BufferCount
 
 ## Сигнатура
 
