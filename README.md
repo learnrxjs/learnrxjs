@@ -80,7 +80,7 @@
 - [ ] range
 - [ ] repeat
 - [ ] repeatWhen
-- [ ] retry
+- [x] retry
 - [ ] retryWhen
 - [ ] sample
 - [x] scan
