@@ -42,5 +42,5 @@ zip(age$, name$, isDev$).pipe(
 ## Полезные ссылки
 
 - 📰 Официальная документация: [zip](https://rxjs.dev/api/index/function/zip)
-- 📁 Исходный код: https://github.com/reactivex/rxjs/tree/6.5.5/src/internal/observable/zip.ts#L43-L86
+- 📁 Исходный код: https://github.com/reactivex/rxjs/tree/master/src/internal/observable/zip.ts#L43-L86
 
