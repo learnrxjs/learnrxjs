@@ -21,7 +21,9 @@ bufferCount<T>(bufferSize: number, startBufferEvery: number = null): OperatorFun
 
 ## Примеры
 
-### Пример 1: Выдавать последние два клика в виде массива
+### Пример 1
+
+Выдавать последние два клика в виде массива
 
 ```typescript
 // RxJS v6+
