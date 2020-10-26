@@ -113,4 +113,4 @@
 - [ ] windowToggle
 - [ ] windowWhen
 - [ ] withLatestFrom
-- [ ] zip
+- [x] zip
