@@ -74,3 +74,4 @@
      - [take](api/operators/pipeable/take.md)
      - [takeUntil](api/operators/pipeable/takeUntil.md)
      - [tap](api/operators/pipeable/tap.md)
+     - [zip](api/operators/pipeable/zip.md)
