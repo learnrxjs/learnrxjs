@@ -30,6 +30,7 @@
       - [fromEvent](api/operators/creation/fromEvent.md)
       - [iif](api/operators/creation/iif.md)
       - [interval](api/operators/creation/interval.md)
+      - [throwError](api/operators/creation/throwError.md)
       - [timer](api/operators/creation/timer.md)
       - [merge](api/operators/creation/merge.md)
       - [of](api/operators/creation/of.md)
