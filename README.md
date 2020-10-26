@@ -105,7 +105,7 @@
 - [ ] timeout
 - [ ] timeoutWith
 - [x] timer
-- [ ] toArray
+- [x] toArray
 - [ ] toPromise
 - [ ] window
 - [ ] windowCount
