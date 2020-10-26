@@ -100,7 +100,7 @@
 - [ ] takeWhile
 - [ ] throttle
 - [ ] throttleTime
-- [ ] throw
+- [x] throw
 - [ ] timeInterval
 - [ ] timeout
 - [ ] timeoutWith
