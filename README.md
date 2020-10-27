@@ -15,7 +15,7 @@
   <img src='assets/waliot.svg' width='200'>
 </a>
 
-Автор перевода [Sam Bulatov](https://github.com/mephistophelius)
+Автор перевода [Sam Bulatov](https://github.com/mephistophelius) и [контрибьюторы](https://github.com/waliot/rxjs-ru/graphs/contributors)
 
 ## Переведенные операторы
 
