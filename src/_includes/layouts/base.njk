@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    {% set pageTitle %}
+      {{ title or renderData.title }} – {{ siteInfo.name }}
+    {% endset %}
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ pageTitle }}</title>
+
+    <link rel="stylesheet" href="/assets/css/normalize.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+
+  </head>
+
+  <body class="body container">
+    <header class="header">
+      <button class="menu-button">
+        <img class="icon menu" src="/assets/pictures/icons/menu.svg" aria-hidden="true" alt="Кнопка меню">
+      </button>
+
+      <h2 class="site-name">{{ siteInfo.name }}</h2>
+
+      <a class="github-link" href="https://github.com">
+        <img class="icon github-social" src="/assets/pictures/icons/github.svg" aria-hidden="true" alt="Ссылка на репозиторий">
+      </a>
+
+      <div class="search-container">
+        <input class="search-input" type="search" placeholder="Искать...">
+      </div>
+
+      <button class="theme-switch-button">
+        <svg class="icon bulb-icon" viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+          <path d="M344,408v16a40.045,40.045,0,0,1-40,40h-8.8a40.005,40.005,0,0,1-78.392,0H208a40.045,40.045,0,0,1-40-40V408a24.027,24.027,0,0,1,24-24H320A24.027,24.027,0,0,1,344,408ZM366.732,60.258A160.092,160.092,0,1,0,150.2,296.036,53.19,53.19,0,0,1,168,336a24.027,24.027,0,0,0,24,24H320a24.028,24.028,0,0,0,24-24,53.344,53.344,0,0,1,17.875-40.032,160.293,160.293,0,0,0,4.857-235.708Z"/>
+        </svg>
+      </button>
+    </header>
+    <aside class="sidebar">
+      <nav>
+        <ul class="nav">
+          <li class="item"><a href="/" class="item">Getting started</a>
+            <ul>
+              <li class="item"><a href="/getting-started/configure/" class="item">Configure your site</a></li>
+              <li class="item"><a href="/getting-started/content/index.htm" class="item">Set up your content</a></li>
+              <li class="item"><a href="/getting-started/step-four/" class="item">Review privacy settings</a></li>
+              <li class="item"><a href="/getting-started/deploy/" class="item">Deploy your changes</a></li>
+            </ul>
+          </li>
+          <li class="item"><a href="/tips-and-tricks/" class="item">Tips &amp; Tricks</a>
+            <ul>
+              <li class="item active"><a href="/tips-and-tricks/editing/" class="item active">Editing content</a></li>
+              <li class="item"><a href="/tips-and-tricks/images/" class="item">Working with images</a></li>
+              <li class="item"><a href="/tips-and-tricks/links/" class="item">Working with links</a></li>
+              <li class="item"><a href="/tips-and-tricks/embeds/" class="item">Working with embeds</a></li>
+              <li class="item"><a href="/tips-and-tricks/ordering/" class="item">Understanding ordering</a></li>
+              <li class="item"><a href="/tips-and-tricks/markdown/" class="item">Learning markdown</a></li>
+            </ul>
+          </li>
+          <li class="item"><a href="/advanced/" class="item">Advanced settings</a>
+            <ul>
+              <li class="item"><a href="/advanced/navigation/" class="item">Navigation layout</a></li>
+              <li class="item"><a href="/advanced/netlifycms/" class="item">Enabling Netlify CMS</a></li>
+              <li class="item"><a href="/advanced/comments/" class="item">Enabling comments</a></li>
+              <li class="item"><a href="/advanced/analytics/" class="item">Enabling analtyics</a></li>
+              <li class="item"><a href="/advanced/encryption/" class="item">Password protection</a></li>
+            </ul>
+          </li>
+          <li class="item"><a href="/credits/" class="item">Credits</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <main class="main">
+      {{ content | safe }}
+    </main>
+  </body>
+</html>

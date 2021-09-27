@@ -1,0 +1,34 @@
+{
+  "name": "rxjs-ru",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clear": "rimraf dist",
+    "start": "npm run clear && eleventy --serve --port=8899",
+    "build": "npm run clear && eleventy",
+    "debug": "npm run clear && DEBUG=Eleventy* eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waliot/rxjs-ru.git"
+  },
+  "author": "Sam Bulatov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/waliot/rxjs-ru/issues"
+  },
+  "homepage": "https://github.com/waliot/rxjs-ru#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "rimraf": "^3.0.2",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.2",
+    "@gerhobbelt/markdown-it-footnote": "^3.0.2-4",
+    "markdown-it": "^12.2.0",
+    "markdown-it-anchor": "^8.3.0",
+    "markdown-it-attrs": "^4.0.0",
+    "markdown-it-table-of-contents": "^0.5.2",
+    "toml": "^3.0.0"
+  }
+}

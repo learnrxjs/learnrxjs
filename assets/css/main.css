@@ -1,0 +1,124 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.body {
+  margin: 0;
+  line-height: 1.5;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  font-size: 18px;
+
+  --accent-color: hsl(338deg, 78%, 48%);
+
+  transition: 250ms linear color, 250ms linear background-color;
+
+  --text-color: hsl(215, 14%, 34%);
+  --invert-text-color: hsl(0, 0%, 100%);
+
+  --bg-color: hsl(0, 0%, 100%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: min-content 1fr 1.5rem 15rem 1.5rem;
+  gap: 1rem;
+  padding: 1rem;
+  align-items: center;
+  border-bottom: 1px solid hsl(215deg 14% 34% / 17%);
+}
+
+* {
+  outline: none;
+}
+
+*:focus {
+  box-shadow: 0 0 0 3px hsla(240, 100%, 50%, 0.31);
+}
+
+.icon {
+  width: 1.5rem;
+}
+
+.search-input {
+  width: 100%;
+}
+
+.site-name {
+  margin: 0;
+}
+
+.github-social {
+  width: 100%;
+}
+
+a.github-link {
+  line-height: 0.7;
+}
+
+.bulb-icon {
+  width: 1.5rem;
+  fill: hsl(46deg 100% 50%);
+}
+
+.theme-switch-button,
+.menu-button {
+  font: inherit;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  line-height: 0.5;
+}
+
+.search-input {
+  padding: 0.5rem;
+  border: 1px solid hsl(220, 13%, 91%);
+  background-color: hsl(210, 20%, 98%);
+  border-radius: 5px;
+}
+
+.nav {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.nav ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+.sidebar {
+  border-right: 1px solid hsl(215deg 14% 34% / 17%);
+  padding: 1rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-template-rows: min-content 1fr;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "header header"
+    "sidebar main";
+}
+
+.header {
+  grid-area: header;
+}
+
+.main {
+  grid-area: main;
+  padding: 1rem;
+}
