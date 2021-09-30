@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Введение",
+    "url": null,
+    "childs": [
+      {
+        "label": "Краткий обзор",
+        "url": "/guide/overview"
+      },
+      {
+        "label": "Observable",
+        "url": "/guide/observable"
+      },
+      {
+        "label": "Операторы",
+        "url": "/guide/operators"
+      },
+      {
+        "label": "Подписка",
+        "url": "/guide/subscription"
+      },
+      {
+        "label": "Subject-ы",
+        "url": "/guide/subjects"
+      },
+      {
+        "label": "Шедулеры",
+        "url": "/guide/schedulers"
+      }
+    ]
+  },
+  {
+    "title": "Установка",
+    "url": "/guide/install",
+    "childs": []
+  },
+  {
+    "title": "API",
+    "url": "/api",
+    "childs": []
+  }
+]

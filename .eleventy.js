@@ -1,8 +1,8 @@
 const markdownIt = require("markdown-it")
 const markdownItTitleAnchor = require("markdown-it-anchor")
-const markdownItToc = require("markdown-it-table-of-contents")
 const markdownItAttrs = require("markdown-it-attrs")
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight")
+const pluginTOC = require('eleventy-plugin-toc')
 const toml = require("toml")
 
 
@@ -17,6 +17,11 @@ function eleventy(config) {
   config.addPassthroughCopy("src/**/*.(html|gif|jpg|jpeg|png|webp|svg|mp4|webm|zip)")
   
   config.addPlugin(syntaxHighlight)
+  config.addPlugin(pluginTOC, {
+    ul: true,
+    wrapperClass: "table-of-contents"
+  })
+  
   config.setFrontMatterParsingOptions({
     engines: {
       toml: (content) => toml.parse(content)
@@ -57,12 +62,6 @@ function eleventy(config) {
     typographer: true
   })
     .use(markdownItAttrs)
-    .use(markdownItToc, {
-      includeLevel: [ 2, 3, 4, 5, 6 ],
-      listType: "ol",
-      containerHeaderHtml: `<h2>Содержание</h2>`,
-      containerClass: `article-table-of-content`
-    })
     .use(markdownItTitleAnchor, {
       permalink: true,
       permalinkClass: "title-anchor",

@@ -1,1 +1,18 @@
 name = "RxJS по русски"
+
+# Меню
+[[menu]]
+label = "Проекты"
+url = "/projects"
+
+[[menu]]
+label = "Доклады"
+url = "/talks"
+
+[[menu]]
+label = "Обо мне"
+url = "/about"
+
+[[menu]]
+label = "Контакты"
+url = "/about#contacts"
