@@ -10,8 +10,11 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>{{ pageTitle }}</title>
 
-  <link rel="stylesheet" href="/assets/css/bettertext.css">
+<!--  <link rel="stylesheet" href="/assets/css/bettertext.css">-->
   <link rel="stylesheet" href="/assets/css/normalize.css">
+
+  <link rel="stylesheet" href="/assets/css/light-code-theme.css">
+
   <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 
@@ -40,51 +43,9 @@
       </button>
     </div>
   </header>
-  <main class="main">
-    <aside class="main-sidebar">
-      <nav>
-        <ul class="main-navigation">
-          {%- for item in menu -%}
-          <li class="nav-item">
-            {%- if item.url -%}
-              <p class="title"><a href="{{ item.url }}">{{ item.title }}</a></p>
-            {%- else -%}
-              <p class="title">{{ item.title }}</p>
-            {%- endif -%}
 
-            {%- if item.childs | length > 0 -%}
-              <ul class="child-navigation">
-                {%- for child in item.childs -%}
-                  <li>
-                    <a href="{{ child.url }}">{{ child.label }}</a>
-                  </li>
-                {%- endfor -%}
-              </ul>
-            {%- endif -%}
+  {{ content | safe }}
 
-          </li>
-          {%- endfor -%}
-        </ul>
-      </nav>
-    </aside>
-    <article class="main-content">
-      {{ content | safe }}
-    </article>
-    <aside class="page-sidebar">
-      <section class="page-sidebar-section">
-        <h3 class="section-title">Содержание</h3>
-        {{ content | toc | safe }}
-      </section>
-
-      <section class="page-sidebar-section">
-        <h3 class="section-title">Ещё</h3>
-        <ul class="page-sidebar-action-list">
-          <li><a href="">Редактировать эту страницу</a></li>
-          <li><a href="">Присоедениться к сообществу</a></li>
-        </ul>
-      </section>
-    </aside>
-  </main>
   <footer class="footer">
     <div class="container">
       © 2015–2021 Google, Inc., Netflix, Inc., Microsoft Corp. and contributors.

@@ -3,6 +3,7 @@ const markdownItTitleAnchor = require("markdown-it-anchor")
 const markdownItAttrs = require("markdown-it-attrs")
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight")
 const pluginTOC = require('eleventy-plugin-toc')
+const markdownItContainer = require('markdown-it-container')
 const toml = require("toml")
 
 
@@ -65,10 +66,60 @@ function eleventy(config) {
     .use(markdownItTitleAnchor, {
       permalink: true,
       permalinkClass: "title-anchor",
-      permalinkSymbol: "⌗"
+      permalinkSymbol: "#"
+    })
+    .use(markdownItContainer, 'spoiler', {
+      validate: function (params) {
+        return params.trim().match(/^spoiler\s+(.*)$/);
+      },
+    
+      render: function (tokens, idx) {
+        var m = tokens[idx].info.trim().match(/^spoiler\s+(.*)$/);
+      
+        if (tokens[idx].nesting === 1) {
+          // opening tag
+          return '<details><summary>' + markdownParser.utils.escapeHtml(m[1]) + '</summary>\n';
+        
+        } else {
+          // closing tag
+          return '</details>\n';
+        }
+      },
+    
+      marker: '&'
+    })
+    .use(markdownItContainer, 'alert', {
+      validate: function (params) {
+        return params.trim().match(/^alert\s+(.*)$/);
+      },
+    
+      render: function (tokens, idx) {
+        const m = tokens[idx].info.trim().match(/^alert\s+(.*)$/);
+      
+        if (tokens[idx].nesting === 1) {
+          return `<section class="alert ${markdownParser.utils.escapeHtml(m[1])}">\n`;
+        } else {
+          return `</section>\n`;
+        }
+      },
+    
+      marker: ':'
     })
   
   config.setLibrary("md", markdownParser)
+  
+  config.addNunjucksFilter("formatDate", (date) => {
+    return date.toLocaleString("ru", {
+      hour12: false,
+      year: "numeric",
+      day: "2-digit",
+      month: "short"
+    })
+  })
+  
+  config.addNunjucksFilter("formatDateISO", (date) => {
+    return date.toISOString()
+  })
   
   return {
     dir: {

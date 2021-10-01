@@ -4,10 +4,12 @@ html, body {
 }
 
 .body {
+  line-height: 1.5;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   margin: 0;
   color: var(--text-color);
   background-color: var(--bg-color);
-  font-size: 18px;
+  font-size: 16px;
   display: grid;
   grid-template-rows: min-content 1fr 1fr;
 
@@ -24,10 +26,18 @@ html, body {
 
 * {
   box-sizing: border-box;
+  outline-offset: 3px;
+  outline-color: hsl(240deg 100% 71%);
 }
 
 button {
   cursor: pointer;
+}
+
+code {
+  background-color: hsl(0deg 0% 50% / 22%);
+  padding: 0 4px;
+  border-radius: 4px;
 }
 
 .container {
@@ -49,14 +59,6 @@ button {
 
 .footer {
   border-top: var(--border);
-}
-
-* {
-  outline: none;
-}
-
-*:focus {
-  box-shadow: 0 0 0 3px hsla(240, 100%, 50%, 0.31);
 }
 
 a {
@@ -135,7 +137,6 @@ a.github-link {
   padding-left: 0;
   padding-right: 0;
   margin: 0 auto;
-  gap: 1rem;
 }
 
 .main-sidebar {
@@ -154,8 +155,7 @@ a.github-link {
 }
 
 .main-sidebar,
-.page-sidebar,
-.main-content {
+.page-sidebar {
   padding: 1rem;
 }
 
@@ -172,6 +172,10 @@ a.github-link {
   font-size: 0.9em;
 }
 
+.page-sidebar-section:not(:last-child) {
+  margin-bottom: 1.3rem;
+}
+
 .nav-item {
   margin-bottom: 1.3rem;
 }
@@ -185,4 +189,78 @@ a.github-link {
 
 .table-of-contents ul li {
   transform: none;
+}
+
+.alert {
+  padding: 1.7rem 0.5rem 0.2rem 0.5rem;
+  border-radius: 5px;
+  position: relative;
+  border-width: 2px;
+  border-style: solid;
+  margin-bottom: 1rem;
+  color: black;
+}
+
+.alert::before {
+  color: #ffffff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 2px 7px;
+  border-bottom-right-radius: 5px;
+  font-size: 0.8em;
+}
+
+.alert > *:first-child {
+  margin-top: 0;
+}
+
+.alert > *:last-child {
+  margin-bottom: 0;
+}
+
+.alert.note {
+  background-color: hsl(245deg 82% 54% / 33%);
+  border-color: hsl(244.7, 76.8%, 54.3%);
+}
+
+.alert.note::before {
+  content: 'Заметка:';
+  background-color: hsl(244.7, 76.8%, 54.3%);
+}
+
+.alert.error {
+  background-color: hsl(0deg 84% 67% / 33%);
+  border-color: hsl(0deg 82% 67%);
+}
+
+.alert.error::before {
+  content: 'Важно:';
+  background-color: hsl(0deg 82% 67%);
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid hsl(215deg 14% 34% / 17%);
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.main-content-header {
+  border-bottom: var(--border);
+}
+
+.main-content-header {
+  padding: 0.5rem 1rem;
+}
+
+.main-content {
+  padding: 0 1rem;
+}
+
+.article-title {
+  margin: 0;
 }
