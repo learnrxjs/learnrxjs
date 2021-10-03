@@ -1,6 +1,6 @@
 ---
 title = "switchMap"
-date = 2020-02-26T00:00:00.000Z
+date = "Last Modified"
 ---
 
 ## Сигнатура

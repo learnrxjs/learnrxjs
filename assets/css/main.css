@@ -40,6 +40,24 @@ code {
   border-radius: 4px;
 }
 
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+  margin-top: 0
+}
+
+input,
+select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid hsl(220, 13%, 91%);
+  background-color: hsl(210, 20%, 98%);
+  border-radius: 5px;
+}
+
 .container {
   max-width: 76rem;
   margin: 0 auto;
@@ -75,10 +93,6 @@ a:hover {
   max-width: initial;
 }
 
-.search-input {
-  width: 100%;
-}
-
 .site-name {
   margin: 0;
 }
@@ -106,13 +120,6 @@ a.github-link {
   line-height: 0.5;
 }
 
-.search-input {
-  padding: 0.5rem;
-  border: 1px solid hsl(220, 13%, 91%);
-  background-color: hsl(210, 20%, 98%);
-  border-radius: 5px;
-}
-
 .main-navigation,
 .child-navigation,
 .page-sidebar-action-list {
@@ -137,6 +144,22 @@ a.github-link {
   padding-left: 0;
   padding-right: 0;
   margin: 0 auto;
+}
+
+.main.page {
+  grid-template-columns: 13rem minmax(0, 63rem);
+}
+
+.page .main-content-wrapper {
+  border-right: var(--border);
+}
+
+.main-sidebar {
+  border-left: var(--border);
+}
+
+.page-sidebar {
+  border-right: var(--border);
 }
 
 .main-sidebar {
@@ -263,4 +286,21 @@ th, td {
 
 .article-title {
   margin: 0;
+}
+
+.article-date-create {
+  color: hsl(0deg 1% 63%);
+}
+
+.api-table {
+  width: 100%;
+}
+
+.api-page-header {
+  margin: 1rem 0;
+}
+
+.api-page-filter {
+  display: flex;
+  gap: 1rem;
 }

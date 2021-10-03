@@ -1,0 +1,24 @@
+<nav>
+  <ul class="main-navigation">
+    {%- for item in menu -%}
+    <li class="nav-item">
+      {%- if item.url -%}
+      <p class="title"><a href="{{ item.url }}">{{ item.title }}</a></p>
+      {%- else -%}
+      <p class="title">{{ item.title }}</p>
+      {%- endif -%}
+
+      {%- if item.childs | length > 0 -%}
+      <ul class="child-navigation">
+        {%- for child in item.childs -%}
+        <li>
+          <a href="{{ child.url }}">{{ child.label }}</a>
+        </li>
+        {%- endfor -%}
+      </ul>
+      {%- endif -%}
+
+    </li>
+    {%- endfor -%}
+  </ul>
+</nav>

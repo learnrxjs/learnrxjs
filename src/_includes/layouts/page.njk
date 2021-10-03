@@ -1,3 +1,18 @@
 ---
 layout = "layouts/base.njk"
 ---
+
+<div class="main page">
+  <aside class="main-sidebar">
+    {%- include "components/main-navigation.component.njk" -%}
+  </aside>
+
+  <article class="main-content-wrapper">
+    <header class="main-content-header">
+      <h1 class="article-title">{{ title }}</h1>
+    </header>
+    <div class="main-content">
+      {{ content | safe }}
+    </div>
+  </article>
+</div>

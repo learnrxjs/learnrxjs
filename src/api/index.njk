@@ -1,6 +1,68 @@
 ---
-layout = "layouts/base.njk"
+layout = "layouts/page.njk"
 title = "API"
 ---
 
-<h1>RxJSRu</h1>
+{% macro apiTableRow(apiItem) %}
+<tr>
+  <td>
+    <a href="{{ apiItem.url }}">{{ apiItem.data.title }}</a>
+  </td>
+  <td>{{ translates.apiContentTypes[ apiItem.data.contentType ] }}</td>
+</tr>
+{% endmacro %}
+
+<header class="api-page-header">
+  <form class="api-page-filter">
+    <div class="field">
+      <select name="type">
+        <option value="all">Все</option>
+        <option value="class">Класс</option>
+        <option value="function">Функция</option>
+      </select>
+    </div>
+
+    <div class="field">
+      <select name="sort">
+        <option value="name-by-asc">название по убыванию</option>
+        <option value="name-by-desc">название по возрастанию</option>
+        <option value="type-by-desc">тип по убыванию</option>
+        <option value="type-by-desc">тип по возрастанию</option>
+      </select>
+    </div>
+
+    <div class="field">
+      <input type="text" name="filter" placeholder="Фильтр">
+    </div>
+  </form>
+</header>
+
+<section class="api-page-table-container">
+  <table class="api-table">
+    <thead>
+      <tr>
+        <th>Название</th>
+        <th>Тип</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td colspan="2"><strong>index</strong></td>
+      </tr>
+
+      {%- for item in collections.apiIndex -%}
+      {{ apiTableRow(item) }}
+      {%- endfor -%}
+    </tbody>
+
+    <tbody>
+    <tr>
+      <td colspan="2"><strong>operators</strong></td>
+    </tr>
+
+    {%- for item in collections.apiOperators -%}
+    {{ apiTableRow(item) }}
+    {%- endfor -%}
+    </tbody>
+  </table>
+</section>

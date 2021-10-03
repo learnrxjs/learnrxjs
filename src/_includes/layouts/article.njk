@@ -1,47 +1,23 @@
 ---
 layout = "layouts/base.njk"
 ---
-
-<main class="main">
+<div class="main article">
   <aside class="main-sidebar">
-    <nav>
-      <ul class="main-navigation">
-        {%- for item in menu -%}
-        <li class="nav-item">
-          {%- if item.url -%}
-          <p class="title"><a href="{{ item.url }}">{{ item.title }}</a></p>
-          {%- else -%}
-          <p class="title">{{ item.title }}</p>
-          {%- endif -%}
-
-          {%- if item.childs | length > 0 -%}
-          <ul class="child-navigation">
-            {%- for child in item.childs -%}
-            <li>
-              <a href="{{ child.url }}">{{ child.label }}</a>
-            </li>
-            {%- endfor -%}
-          </ul>
-          {%- endif -%}
-
-        </li>
-        {%- endfor -%}
-      </ul>
-    </nav>
+    {%- include "components/main-navigation.component.njk" -%}
   </aside>
+
   <article class="main-content-wrapper">
     <header class="main-content-header">
       <h1 class="article-title">{{ title }}</h1>
       <div class="article-date-create">
-        <span>Добавлено: <time datetime="{{ date | formatDateISO }}">{{ date | formatDate }}</time></span>
-        <br>
-        <span>Обновлено: <time datetime="{{ date | formatDateISO }}">{{ date | formatDate }}</time></span>
+        <span>Обновлено: <time datetime="{{ page.date | formatDateISO }}">{{ page.date | formatDate }}</time></span>
       </div>
     </header>
     <div class="main-content">
       {{ content | safe }}
     </div>
   </article>
+
   <aside class="page-sidebar">
     <section class="page-sidebar-section">
       <h3 class="section-title">Содержание</h3>
@@ -51,9 +27,10 @@ layout = "layouts/base.njk"
     <section class="page-sidebar-section">
       <h3 class="section-title">Ещё</h3>
       <ul class="page-sidebar-action-list">
-        <li><a href="">Редактировать эту страницу</a></li>
-        <li><a href="">Присоедениться к сообществу</a></li>
+        <li><a href="">Редактировать</a></li>
+        <li><a href="">Телеграм чат</a></li>
       </ul>
     </section>
   </aside>
-</main>
+</div>
+

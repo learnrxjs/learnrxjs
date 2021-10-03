@@ -56,6 +56,18 @@ function eleventy(config) {
     return tags
   })
   
+  config.addCollection("api", /** @param {TemplateCollection} collectionApi */(collectionApi) => {
+    return collectionApi.getFilteredByGlob("src/api/**/*.md")
+  })
+  
+  config.addCollection("apiIndex", /** @param {TemplateCollection} collectionApi */(collectionApi) => {
+    return collectionApi.getFilteredByGlob("src/api/index/**/*.md")
+  })
+  
+  config.addCollection("apiOperators", /** @param {TemplateCollection} collectionApi */(collectionApi) => {
+    return collectionApi.getFilteredByGlob("src/api/operators/**/*.md")
+  })
+  
   const markdownParser = markdownIt({
     html: true,
     breaks: true,
