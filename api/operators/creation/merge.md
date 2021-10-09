@@ -16,7 +16,7 @@ merge<T, R>(...observables: Array<ObservableInput<any> | SchedulerLike | number>
   
   Список Observable-ов которые нужно объединить
 
-- ~~`scheduler`~~ *Depricated*
+- ~~`scheduler`~~ *Deprecated*
   
   Тип планировщика. Вместо этого параметра стоит использовать `scheduled` в паре с `mergeAll`
   

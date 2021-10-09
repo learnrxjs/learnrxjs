@@ -19,7 +19,7 @@ exhaustMap<T, R, O extends ObservableInput<any>>(
   
   Функция возвращающая [ObservableInput](https://github.com/ReactiveX/rxjs/blob/master/src/internal/types.ts#L76), на который подпишется `exhaustMap` 
 
-- ~~`resultSelector`~~ *Depricated*
+- ~~`resultSelector`~~ *Deprecated*
 
   Функция аналог оператора `map`. Желательно `map` и использовать.
 
