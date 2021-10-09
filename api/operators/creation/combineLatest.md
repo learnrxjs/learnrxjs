@@ -24,11 +24,11 @@ combineLatest<O extends ObservableInput<any>, R>(
   
   Список Observable-ов значения которых будут агрегироваться
 
-- ~~`resultSelector`~~ *Depricated*
+- ~~`resultSelector`~~ *Deprecated*
   
   Функция мутирующая поступающие значения. Вместо этого аргумента лучше использовать оператор [`map`](api/operators/pipeable/map)
 
-- ~~`scheduler`~~ *Depricated*
+- ~~`scheduler`~~ *Deprecated*
   
   Тип планировщика. Вместо этого аргумента лучше использовать операторы `subscribeOn` или `observeOn`
 

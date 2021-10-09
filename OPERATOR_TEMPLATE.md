@@ -13,7 +13,7 @@ hello(str: string, scheduler)
 | Название | Описание |
 |-|-|
 | `str` | Пример описания аргумента |
-| ~~`scheduler`~~ *Depricated* | Параметр с флагом depricated |
+| ~~`scheduler`~~ *Deprecated* | Параметр с флагом deprecated |
 
 ## Примеры
 

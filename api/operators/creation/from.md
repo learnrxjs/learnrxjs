@@ -28,7 +28,7 @@ from<O extends ObservableInput<any>>(input: O, scheduler: SchedulerLike): Observ
   
   Объект, который нужно превратить в Observable
 
-- ~~`scheduler`~~ *Depricated*
+- ~~`scheduler`~~ *Deprecated*
   
   Тип планировщика. Лучше использовать функцию `scheduled`
 

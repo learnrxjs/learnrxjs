@@ -53,7 +53,7 @@ fromEvent<T>(
 
   Параметры с которыми буду слушаться события (имеет смысл только для DOM элементов)
 
-- ~~`resultSelector`~~ *Depricated*
+- ~~`resultSelector`~~ *Deprecated*
 
   Мутирует данные пришедшие из `fromEvent`. Лучше использовать оператор `map`
 
