@@ -129,6 +129,24 @@ function eleventy(config) {
     })
   })
   
+  config.addNunjucksFilter("toJSON", (object) => {
+    return JSON.stringify(object)
+  })
+  
+  config.addNunjucksFilter("prepareApiItemForJSON", (apiItem) => {
+    const apiItemData = apiItem.data
+    
+    const resultData = {
+      title: apiItemData.title,
+      lastUpdateTime: apiItemData.page.date,
+      url: apiItemData.page.url,
+      contentType: apiItemData.contentType,
+      directory: apiItemData.directory
+    }
+    
+    return JSON.stringify(resultData)
+  })
+  
   config.addNunjucksFilter("formatDateISO", (date) => {
     return date.toISOString()
   })

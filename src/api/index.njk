@@ -1,10 +1,15 @@
 ---
 layout = "layouts/page.njk"
 title = "API"
+#scripts = [
+#  "/assets/js/rxjs-7.3.1.umd.min.js",
+#  "/assets/js/redom.js",
+#  "/assets/js/api-page.js"
+#]
 ---
 
 {% macro apiTableRow(apiItem) %}
-<tr>
+<tr data-api-item-info="{{ apiItem | prepareApiItemForJSON }}">
   <td>
     <a href="{{ apiItem.url }}">{{ apiItem.data.title }}</a>
   </td>
@@ -12,10 +17,10 @@ title = "API"
 </tr>
 {% endmacro %}
 
-<header class="api-page-header">
+<!--<header class="api-page-header">
   <form class="api-page-filter">
     <div class="field">
-      <select name="type">
+      <select id="type" name="type">
         <option value="all">Все</option>
         <option value="class">Класс</option>
         <option value="function">Функция</option>
@@ -23,7 +28,7 @@ title = "API"
     </div>
 
     <div class="field">
-      <select name="sort">
+      <select id="sort" name="sort">
         <option value="name-by-asc">название по убыванию</option>
         <option value="name-by-desc">название по возрастанию</option>
         <option value="type-by-desc">тип по убыванию</option>
@@ -32,37 +37,28 @@ title = "API"
     </div>
 
     <div class="field">
-      <input type="text" name="filter" placeholder="Фильтр">
+      <input id="filter" type="text" name="filter" placeholder="Фильтр">
     </div>
   </form>
-</header>
+</header>-->
 
 <section class="api-page-table-container">
-  <table class="api-table">
-    <thead>
-      <tr>
-        <th>Название</th>
-        <th>Тип</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td colspan="2"><strong>index</strong></td>
-      </tr>
 
+  <section class="package-type-container">
+    <h2 class="section-title">index</h2>
+    <ul class="entity-list">
       {%- for item in collections.apiIndex -%}
-      {{ apiTableRow(item) }}
+      <li class="entity-list-item"><a href="{{ item.url }}">{{ item.data.title }}</a></li>
       {%- endfor -%}
-    </tbody>
+    </ul>
+  </section>
 
-    <tbody>
-    <tr>
-      <td colspan="2"><strong>operators</strong></td>
-    </tr>
-
-    {%- for item in collections.apiOperators -%}
-    {{ apiTableRow(item) }}
-    {%- endfor -%}
-    </tbody>
-  </table>
+  <section class="package-type-container">
+    <h2 class="section-title">operators</h2>
+    <ul class="entity-list">
+      {%- for item in collections.apiOperators -%}
+      <li class="entity-list-item"><a href="{{ item.url }}">{{ item.data.title }}</a></li>
+      {%- endfor -%}
+    </ul>
+  </section>
 </section>

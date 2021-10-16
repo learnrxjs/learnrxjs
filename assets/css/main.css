@@ -304,3 +304,7 @@ th, td {
   display: flex;
   gap: 1rem;
 }
+
+.api-page-table-container {
+  margin-top: 1rem;
+}

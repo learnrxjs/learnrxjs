@@ -50,5 +50,9 @@
       Code licensed under an Apache-2.0 License. Documentation licensed under CC BY 4.0.
     </div>
   </footer>
+
+  {%- for scriptSrc in scripts -%}
+  <script src="{{ scriptSrc }}"></script>
+  {%- endfor -%}
 </body>
 </html>
