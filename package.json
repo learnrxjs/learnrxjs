@@ -1,0 +1,34 @@
+{
+  "name": "rxjs-ru",
+  "version": "7.1.0",
+  "description": "Russian-language translation of documentation",
+  "homepage": "https://learnrxjs.ru",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "eleventy --serve --port=8081",
+    "build": "eleventy",
+    "start:debug": "DEBUG=Eleventy* eleventy"
+  },
+  "author": {
+    "name": "Sam Bulatov",
+    "email": "mephistorine@gmail.com",
+    "url": "https://mephi.dev"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rxjs-ru/rxjs-ru.git"
+  },
+  "keywords": [
+    "rxjs",
+    "tranlate",
+    "russian"
+  ],
+  "bugs": {
+    "url": "https://github.com/rxjs-ru/rxjs-ru/issues"
+  }
+}

@@ -1,3 +1,10 @@
+---
+title: "combineLatest"
+date: "Created"
+type: "function"
+status: "stable"
+---
+
 # CombineLatest
 
 ## Сигнатура

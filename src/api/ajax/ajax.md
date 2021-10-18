@@ -1,3 +1,10 @@
+---
+title: "ajax"
+date: "Created"
+type: "const"
+status: "stable"
+---
+
 # Ajax
 
 ## Сигнатура

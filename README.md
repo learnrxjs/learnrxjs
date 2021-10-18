@@ -10,7 +10,7 @@
 - [ ] Лучше использовать термин "поток" чем Observable
 
 <a href='https://waliot.com'>
-  <img src='assets/waliot.svg' width='200'>
+  <img src='assets_depric/waliot.svg' width='200'>
 </a>
 
 Автор перевода [Sam Bulatov](https://github.com/mephistorine) и [контрибьюторы](https://github.com/waliot/rxjs-ru/graphs/contributors)
