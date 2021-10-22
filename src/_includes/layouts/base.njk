@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>{{ title }} – RxJS-Ru</title>
+
+    <link rel="stylesheet" href="/assets/styles/index.css">
+
+    <link rel="shortcut icon" href="/assets/pictures/rxjs-ru-logo.jpg">
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="sidebar-toggle-container">
+        <button type="button" class="button">
+          <svg focusable="false" width="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="black">
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+          </svg>
+        </button>
+      </div>
+
+      <div class="logo-container">
+        <a href="/">
+          <img class="logo-image" src="/assets/pictures/rxjs-ru-logo.jpg" alt="Логотип проекта">
+          <span>RxJS-Ru</span>
+        </a>
+      </div>
+
+      <nav class="main-navigation-container">
+        <ul class="main-navigation">
+          <li class="main-navigation-item">
+            <a href="/">Документация</a>
+          </li>
+          <li class="main-navigation-item">
+            <a href="/">API</a>
+          </li>
+        </ul>
+      </nav>
+
+      <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/rxjs-ru/rxjs-ru?style=social">
+    </header>
+
+    <main class="main">
+      {{ content | safe }}
+    </main>
+
+    <footer class="footer">
+
+    </footer>
+  </body>
+</html>

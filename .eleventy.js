@@ -1,5 +1,3 @@
-//@ts-check
-
 /** @param {UserConfig} controller */
 module.exports = (controller) => {
   controller.addPassthroughCopy("assets")
