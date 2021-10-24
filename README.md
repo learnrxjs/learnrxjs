@@ -78,6 +78,7 @@
 - [ ] publish
 - [ ] race
 - [ ] range
+- [x] reduce
 - [ ] repeat
 - [ ] repeatWhen
 - [x] retry
@@ -87,7 +88,7 @@
 - [ ] sequenceequal
 - [x] share
 - [x] shareReplay
-- [ ] single
+- [x] single
 - [x] skip
 - [ ] skipUntil
 - [ ] skipWhile
