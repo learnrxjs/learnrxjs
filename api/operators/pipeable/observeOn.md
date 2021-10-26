@@ -22,8 +22,6 @@ observeOn<T>(scheduler: SchedulerLike, delay: number = 0): MonoTypeOperatorFunct
 
 ### Пример 1
 
-Краткое описание
-
 ```typescript
 import { interval, animationFrameScheduler } from 'rxjs';
 import { observeOn } from 'rxjs/operators';
@@ -35,7 +33,7 @@ intervals.pipe(
   observeOn(animationFrameScheduler),          // ...но мы будем использовать «animationFrameScheduler»,
 )                                              // чтобы реализовать плавную анимацию
 .subscribe(val => {
- someDiv.style.height = val + 'px';
+  someDiv.style.height = val + 'px';
 });
 ```
 
