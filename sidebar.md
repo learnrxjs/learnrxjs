@@ -67,6 +67,7 @@
        - [mapTo](api/operators/pipeable/mapTo.md)
        - [mergeMap](api/operators/pipeable/mergeMap.md)
        - [mergeAll](api/operators/pipeable/mergeAll.md)
+       - [observeOn](api/operators/pipeable/observeOn.md)
        - [pairwise](api/operators/pipeable/pairwise.md)
        - [pluck](api/operators/pipeable/pluck.md)
        - [retry](api/operators/pipeable/retry.md)

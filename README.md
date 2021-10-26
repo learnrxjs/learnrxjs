@@ -71,6 +71,7 @@
 - [x] mergeMap / flatMap
 - [ ] mergeScan
 - [ ] multicast
+- [x] observeOn
 - [x] of
 - [ ] partition
 - [x] pairwise
