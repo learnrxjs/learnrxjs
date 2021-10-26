@@ -94,6 +94,7 @@
 - [ ] skipUntil
 - [ ] skipWhile
 - [x] startWith
+- [x] subscribeOn
 - [x] switchMap
 - [ ] switchMapTo
 - [x] take

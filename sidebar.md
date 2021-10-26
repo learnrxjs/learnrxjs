@@ -78,6 +78,7 @@
        - [shareReplay](api/operators/pipeable/shareReplay.md)
        - [skip](api/operators/pipeable/skip.md)
        - [startWith](api/operators/pipeable/startWith.md)
+       - [subscribeOn](api/operators/pipeable/subscribeOn.md)
        - [switchMap](api/operators/pipeable/switchMap.md)
        - [take](api/operators/pipeable/take.md)
        - [takeUntil](api/operators/pipeable/takeUntil.md)
