@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>{{ title }} – RxJS-Ru</title>
+    <title>{{ title }} – {{ site.name }}</title>
 
     <link rel="stylesheet" href="/assets/styles/index.css">
 
@@ -24,7 +24,7 @@
       <div class="logo-container">
         <a href="/">
           <img class="logo-image" src="/assets/pictures/rxjs-ru-logo.jpg" alt="Логотип проекта">
-          <span>RxJS-Ru</span>
+          <span>{{ site.name }}</span>
         </a>
       </div>
 
@@ -39,7 +39,17 @@
         </ul>
       </nav>
 
-      <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/rxjs-ru/rxjs-ru?style=social">
+      <div class="search-container">
+        <input type="search" name="search">
+      </div>
+
+      <div class="theme-switcher-container">
+        <button>Dark</button>
+      </div>
+
+      <div class="github-link-container">
+        <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/rxjs-ru/rxjs-ru?style=social">
+      </div>
     </header>
 
     <main class="main">
