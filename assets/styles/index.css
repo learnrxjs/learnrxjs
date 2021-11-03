@@ -1,9 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
 .body {
   font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 16px;
   line-height: 1.4;
+  color: var(--text-color);
+  background-color: var(--background-color);
 }
 
 img {
   width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+.content-container {
+  /* Максимальная ширина контейнера
+  равна сумме ширины одного
+  символа умноженное на 60 */
+  max-width: 60ch;
+  margin: 0 auto;
+}
+
+.header {
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.header .content-container {
+  display: grid;
+  grid-template-columns: 30px 1fr repeat(3, min-content);
+  column-gap: 0.5rem;
+  place-items: center start;
+  padding: 0.5rem;
+}
+
+.logo-image {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.main-navigation-container {
+  display: none;
+}
+
+.main-navigation {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: .4rem;
+  appearance: none;
+}
+
+.button.icon-button {
+  background: none;
+  border: 0;
+}
+
+.header .icon-button svg,
+.header .icon-link svg {
+  width: 1.5rem;
+}
+
+.site-name-container a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.search-container,
+.site-name {
+  display: none;
+}
+
+.search-input {
+  width: 160px;
+}
+
+.search-icon-container {
+  display: block;
+}
+
+@media screen and (min-width: 700px) {
+  .search-input {
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 460px) {
+  .search-icon-container {
+    display: none;
+  }
+
+  .search-container {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .site-name {
+    display: initial;
+  }
 }

@@ -7,48 +7,66 @@
 
     <title>{{ title }} – {{ site.name }}</title>
 
+    <link rel="stylesheet" href="/assets/styles/normalize.css">
+
+    <script>
+      if (window.matchMedia('(prefers-color-scheme: dark)').media === 'not all') {
+        document.documentElement.style.display = 'none';
+        document.head.insertAdjacentHTML(
+          "beforeend",
+          "<link rel=\"stylesheet\" href=\"/assets/styles/light.css\" onload=\"document.documentElement.style.display = ``\">",
+        );
+      }
+    </script>
+
+    <link rel="stylesheet" href="/assets/styles/dark.css" media="(prefers-color-scheme: dark)">
+    <link rel="stylesheet" href="/assets/styles/light.css" media="(prefers-color-scheme: light)">
+
     <link rel="stylesheet" href="/assets/styles/index.css">
 
-    <link rel="shortcut icon" href="/assets/pictures/rxjs-ru-logo.jpg">
+    <link rel="stylesheet" href="/assets/styles/print.css" media="print">
+
+<!--    <link rel="shortcut icon" href="/assets/pictures/favicon.png">-->
   </head>
   <body class="body">
     <header class="header">
-      <div class="sidebar-toggle-container">
-        <button type="button" class="button">
-          <svg focusable="false" width="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="black">
-            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
-          </svg>
-        </button>
-      </div>
+      <div class="content-container">
+        <div class="sidebar-toggle-container">
+          <button type="button" class="button icon-button">
+            <svg focusable="false" width="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="black">
+              <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+            </svg>
+          </button>
+        </div>
 
-      <div class="logo-container">
-        <a href="/">
-          <img class="logo-image" src="/assets/pictures/rxjs-ru-logo.jpg" alt="Логотип проекта">
-          <span>{{ site.name }}</span>
-        </a>
-      </div>
+        <div class="site-name-container">
+          <a href="/">
+            <img class="logo-image" src="/assets/pictures/learnrxjs-logo.svg" alt="Логотип проекта">
+            <span class="site-name">{{ site.name }}</span>
+          </a>
+        </div>
 
-      <nav class="main-navigation-container">
-        <ul class="main-navigation">
-          <li class="main-navigation-item">
-            <a href="/">Документация</a>
-          </li>
-          <li class="main-navigation-item">
-            <a href="/">API</a>
-          </li>
-        </ul>
-      </nav>
+        <div class="search-container">
+          <input type="search" class="search-input form-control" name="search" placeholder="Поиск...">
+        </div>
 
-      <div class="search-container">
-        <input type="search" name="search">
-      </div>
+        <div class="search-icon-container">
+          <button class="button icon-button">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.005 512.005"><path d="m505.749 475.587-145.6-145.6c28.203-34.837 45.184-79.104 45.184-127.317C405.333 90.926 314.41.003 202.666.003S0 90.925 0 202.669s90.923 202.667 202.667 202.667c48.213 0 92.48-16.981 127.317-45.184l145.6 145.6c4.16 4.16 9.621 6.251 15.083 6.251s10.923-2.091 15.083-6.251c8.341-8.341 8.341-21.824-.001-30.165zM202.667 362.669c-88.235 0-160-71.765-160-160s71.765-160 160-160 160 71.765 160 160-71.766 160-160 160z"/></svg>
+          </button>
+        </div>
 
-      <div class="theme-switcher-container">
-        <button>Dark</button>
-      </div>
+        <div class="theme-switcher-container">
+          <button class="button icon-button">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="-12 0 448 448.045"><path d="M224.023 448.031c85.715.903 164.012-48.488 200.118-126.23a171.044 171.044 0 0 1-72.118 14.23c-97.156-.11-175.89-78.844-176-176 .973-65.719 37.235-125.832 94.91-157.351A334.474 334.474 0 0 0 224.024.03c-123.714 0-224 100.29-224 224 0 123.715 100.286 224 224 224zm0 0"/></svg>
+          </button>
+        </div>
 
-      <div class="github-link-container">
-        <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/rxjs-ru/rxjs-ru?style=social">
+        <div class="github-link-container">
+          <a class="icon-link" href="{{ site.repositoryUrl }}">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M255.968 5.329C114.624 5.329 0 120.401 0 262.353c0 113.536 73.344 209.856 175.104 243.872 12.8 2.368 17.472-5.568 17.472-12.384 0-6.112-.224-22.272-.352-43.712-71.2 15.52-86.24-34.464-86.24-34.464-11.616-29.696-28.416-37.6-28.416-37.6-23.264-15.936 1.728-15.616 1.728-15.616 25.696 1.824 39.2 26.496 39.2 26.496 22.848 39.264 59.936 27.936 74.528 21.344 2.304-16.608 8.928-27.936 16.256-34.368-56.832-6.496-116.608-28.544-116.608-127.008 0-28.064 9.984-51.008 26.368-68.992-2.656-6.496-11.424-32.64 2.496-68 0 0 21.504-6.912 70.4 26.336 20.416-5.696 42.304-8.544 64.096-8.64 21.728.128 43.648 2.944 64.096 8.672 48.864-33.248 70.336-26.336 70.336-26.336 13.952 35.392 5.184 61.504 2.56 68 16.416 17.984 26.304 40.928 26.304 68.992 0 98.72-59.84 120.448-116.864 126.816 9.184 7.936 17.376 23.616 17.376 47.584 0 34.368-.32 62.08-.32 70.496 0 6.88 4.608 14.88 17.6 12.352C438.72 472.145 512 375.857 512 262.353 512 120.401 397.376 5.329 255.968 5.329z"/></svg>
+          </a>
+        </div>
       </div>
     </header>
 
@@ -57,7 +75,15 @@
     </main>
 
     <footer class="footer">
-
+      <div class="content-container">
+        <p>Код лицензирован <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache-2.0 лицензией</a>. Документация лицензирована <a href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
+      </div>
     </footer>
+
+    <script>
+      console.error("TODO: 1. Стили для печати")
+      console.error("TODO: 2. Сделать футер")
+      console.error("TODO: 3. Сделать фавикон")
+    </script>
   </body>
 </html>
