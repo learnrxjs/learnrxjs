@@ -18,7 +18,7 @@ button {
   cursor: pointer;
 }
 
-.content-container {
+.main {
   /* Максимальная ширина контейнера
   равна сумме ширины одного
   символа умноженное на 60 */
@@ -26,94 +26,37 @@ button {
   margin: 0 auto;
 }
 
-.header {
-  border-bottom: 1px solid #dbdbdb;
-}
-
-.header .content-container {
+.menu {
   display: grid;
-  grid-template-columns: 30px 1fr repeat(3, min-content);
-  column-gap: 0.5rem;
-  place-items: center start;
-  padding: 0.5rem;
-}
-
-.logo-image {
-  width: 50px;
-  border-radius: 50%;
-}
-
-.main-navigation-container {
-  display: none;
-}
-
-.main-navigation {
-  margin: 0;
+  grid-template-columns: repeat(3, 1fr);
   padding: 0;
   list-style: none;
+  gap: 1rem;
+  margin: 1rem 0;
 }
 
-.form-control {
+.menu-item {
   display: block;
-  width: 100%;
-  padding: 0.5rem;
-
-  border: 1px solid rgba(0,0,0,.2);
-  border-radius: .4rem;
-  appearance: none;
+  padding: 1rem;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
 }
 
-.button.icon-button {
-  background: none;
-  border: 0;
-}
-
-.header .icon-button svg,
-.header .icon-link svg {
-  width: 1.5rem;
-}
-
-.site-name-container a {
+.title {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
+  gap: 0.7rem;
 }
 
-.search-container,
-.site-name {
-  display: none;
+.logo {
+  width: 50px;
+}
+
+.search-form {
+  display: flex;
 }
 
 .search-input {
-  width: 160px;
-}
-
-.search-icon-container {
-  display: block;
-}
-
-@media screen and (min-width: 700px) {
-  .search-input {
-    width: 200px;
-  }
-}
-
-@media screen and (min-width: 460px) {
-  .search-icon-container {
-    display: none;
-  }
-
-  .search-container {
-    display: block;
-  }
-}
-
-@media screen and (min-width: 375px) {
-  .site-name {
-    display: initial;
-  }
+  flex-grow: 1;
 }

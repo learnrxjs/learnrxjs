@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" href="/assets/styles/normalize.css">
 
-    <script>
+    <!--<script>
       if (window.matchMedia('(prefers-color-scheme: dark)').media === 'not all') {
         document.documentElement.style.display = 'none';
         document.head.insertAdjacentHTML(
@@ -17,19 +17,25 @@
           "<link rel=\"stylesheet\" href=\"/assets/styles/light.css\" onload=\"document.documentElement.style.display = ``\">",
         );
       }
-    </script>
+    </script>-->
 
-    <link rel="stylesheet" href="/assets/styles/dark.css" media="(prefers-color-scheme: dark)">
-    <link rel="stylesheet" href="/assets/styles/light.css" media="(prefers-color-scheme: light)">
+    <link rel="stylesheet" href="/assets/styles/dark.css">
+    <link rel="stylesheet" href="/assets/styles/light.css">
 
     <link rel="stylesheet" href="/assets/styles/index.css">
 
     <link rel="stylesheet" href="/assets/styles/print.css" media="print">
 
 <!--    <link rel="shortcut icon" href="/assets/pictures/favicon.png">-->
+    <script defer data-domain="learnrxjs.ru" src="https://plausible.io/js/plausible.js"></script>
   </head>
   <body class="body">
-    <header class="header">
+
+    <main class="main">
+      {{ content | safe }}
+    </main>
+
+    <!--<header class="header">
       <div class="content-container">
         <div class="sidebar-toggle-container">
           <button type="button" class="button icon-button">
@@ -78,7 +84,7 @@
       <div class="content-container">
         <p>Код лицензирован <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache-2.0 лицензией</a>. Документация лицензирована <a href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
       </div>
-    </footer>
+    </footer>-->
 
     <script>
       console.error("TODO: 1. Стили для печати")

@@ -4,7 +4,6 @@
   "description": "Russian-language translation of documentation",
   "homepage": "https://learnrxjs.ru",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "eleventy --serve --port=8081",
     "build": "eleventy",
     "start:debug": "DEBUG=Eleventy* eleventy"
