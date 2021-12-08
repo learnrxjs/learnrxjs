@@ -1,5 +1,5 @@
 {
-  "name": "rxjs-ru",
+  "name": "learnrxjs",
   "version": "7.1.0",
   "description": "Russian-language translation of documentation",
   "homepage": "https://learnrxjs.ru",
@@ -15,9 +15,9 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@11ty/eleventy": "^0.12.1"
+    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.3"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rxjs-ru/rxjs-ru.git"
@@ -29,5 +29,6 @@
   ],
   "bugs": {
     "url": "https://github.com/rxjs-ru/rxjs-ru/issues"
-  }
+  },
+  "private": true
 }

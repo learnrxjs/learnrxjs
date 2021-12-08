@@ -2,29 +2,30 @@
 layout: layouts/base.njk
 title: Главная
 ---
+<main class="main">
+  <div class="content-container">
+    <h1 class="title">
+      <img class="logo" src="./assets/pictures/rxjs.png" alt="Логотип RxJS">
+      <span>Learn RxJS</span>
+    </h1>
+    <p>
+      <a href="https://github.com/rxjs-ru/learnrxjs">Гитхаб</a>
+    </p>
 
-<div class="content-container">
-  <h1 class="title">
-    <img class="logo" src="./assets/pictures/rxjs.png" alt="Логотип RxJS">
-    <span>Learn RxJS</span>
-  </h1>
-  <p>
-    <a href="https://github.com/rxjs-ru/learnrxjs">Гитхаб</a>
-  </p>
+    <div class="search-container">
+      <form class="search-form">
+        <input class="search-input" type="search" name="search" placeholder="Поиск...">
+        <button class="search-submit-button" type="button">Искать</button>
+      </form>
+    </div>
 
-  <div class="search-container">
-    <form class="search-form">
-      <input class="search-input" type="search" name="search" placeholder="Поиск...">
-      <button class="search-submit-button" type="button">Искать</button>
-    </form>
+    <nav>
+      <ul class="menu">
+        <li class="menu-item"><a href="/guide/overview">Обзор</a></li>
+        <li class="menu-item"><a href="/guide/installation">Установка</a></li>
+        <li class="menu-item"><a href="/guide/glossary-and-semantics">Глоссарий</a></li>
+        <li class="menu-item"><a href="/api">API</a></li>
+      </ul>
+    </nav>
   </div>
-
-  <nav>
-    <ul class="menu">
-      <li class="menu-item"><a href="/guide/overview">Обзор</a></li>
-      <li class="menu-item"><a href="/guide/installation">Установка</a></li>
-      <li class="menu-item"><a href="/guide/glossary-and-semantics">Глоссарий</a></li>
-      <li class="menu-item"><a href="/api">API</a></li>
-    </ul>
-  </nav>
-</div>
+</main>

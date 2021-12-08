@@ -1,3 +1,7 @@
+---
+title: Введение
+---
+
 # Введение
 
 RxJS библиотека для объединения асинхронных и событийно-ориентированных программ использующих потоки наблюдателей. Библиотека предоставляет основной тип Observable, его производные (Observer, Scheduler, Subject), а так же операторы похожие на [Array#extras](https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/1.6) (map, filter, reduce, every и др.) позволяющие обрабатывать асинхронные события как коллекции.

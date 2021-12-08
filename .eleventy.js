@@ -1,5 +1,9 @@
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight")
+
 /** @param {UserConfig} controller */
 module.exports = (controller) => {
+  controller.addPlugin(syntaxHighlight)
+  
   controller.addPassthroughCopy("assets")
   controller.addPassthroughCopy("vendor")
   

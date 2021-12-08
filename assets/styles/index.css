@@ -2,12 +2,23 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
 .body {
+  height: 100%;
   font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 16px;
   line-height: 1.4;
   color: var(--text-color);
   background-color: var(--background-color);
+  display: grid;
+  grid-template-columns: 1fr 60ch 1fr;
+}
+
+.body-child {
+  padding: 0 1rem;
 }
 
 img {
@@ -18,29 +29,23 @@ button {
   cursor: pointer;
 }
 
+kbd {
+  background-color: #eee;
+  border-radius: 3px;
+  border: 1px solid #b4b4b4;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .2),
+              0 2px 0 0 rgba(255, 255, 255, .7) inset;
+  color: #333;
+  display: inline-block;
+  font-size: .85em;
+  font-weight: 700;
+  line-height: 1;
+  padding: 2px 4px;
+  white-space: nowrap;
+}
+
 .main {
-  /* Максимальная ширина контейнера
-  равна сумме ширины одного
-  символа умноженное на 60 */
-  max-width: 60ch;
-  margin: 0 auto;
-}
-
-.menu {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  padding: 0;
-  list-style: none;
-  gap: 1rem;
-  margin: 1rem 0;
-}
-
-.menu-item {
-  display: block;
-  padding: 1rem;
-  text-align: center;
-  border: 1px solid black;
-  border-radius: 5px;
+  line-height: 1.6em;
 }
 
 .title {
@@ -53,10 +58,65 @@ button {
   width: 50px;
 }
 
-.search-form {
+.navigation-sidebar {
+  background-color: hsl(220deg 18% 97%);
+  border-right: 1px solid hsl(0deg 0% 87%);
   display: flex;
+  justify-content: flex-end;
+}
+
+.search-container {
+  margin-bottom: 1rem;
+  position: relative;
 }
 
 .search-input {
-  flex-grow: 1;
+  color: hsl(0deg 0% 11%);
+  background-color: hsl(0deg 0% 100%);
+  border: 1px solid hsl(0deg 0% 85%);
+  font-family: inherit;
+  padding: 7px 29px 7px 10px;
+  border-radius: 6px;
+  outline: none;
+  width: 100%;
+  margin: 0;
+}
+
+.search-keyboard-shortcut {
+  position: absolute;
+  right: 11px;
+  top: 7px;
+  pointer-events: none;
+}
+
+.navigation-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navigation-list li {
+  border-radius: 5px;
+}
+
+.navigation-list li:not(:last-child) {
+  margin-bottom: 0.2rem;
+}
+
+.navigation-list a {
+  color: var(--link-color, hsl(0deg 0% 53%));
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  padding: 5px 10px;
+}
+
+.navigation-list .is-can-highlight:hover,
+.navigation-list .is-can-highlight.is-active {
+  background-color: hsl(0deg 4% 91%);
+  --link-color: black;
+}
+
+.navigation-list li ul {
+  padding-left: 1rem;
 }
