@@ -1,5 +1,10 @@
 * {
   box-sizing: border-box;
+  outline: none;
+}
+
+*:focus {
+  box-shadow: 0 0 0 3px hsl(338deg 78% 48% / 54%);
 }
 
 html {
@@ -42,6 +47,41 @@ kbd {
   line-height: 1;
   padding: 2px 4px;
   white-space: nowrap;
+}
+
+a {
+  color: hsl(338deg 78% 48%);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+blockquote {
+  border-left: 3px solid hsl(338deg 78% 48%);
+  margin: 0;
+  padding: 0.5rem 1rem;
+  background: hsl(220deg 20% 97%);
+}
+
+blockquote > *:first-child {
+  margin-top: 0;
+}
+
+blockquote > *:last-child {
+  margin-bottom: 0;
+}
+
+code:not([class*="language"]) {
+  background-color: hsl(220deg 20% 97%);
+  font-size: 0.9em;
+  padding: 3px 5px;
+  border-radius: 4px;
+}
+
+pre[class*="language-"] {
+  font-size: 0.85em;
 }
 
 .main {
