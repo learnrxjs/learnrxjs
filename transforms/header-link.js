@@ -1,7 +1,7 @@
 const { slugify } = require("transliteration")
 
 module.exports = /** @param {Window} window */ (window) => {
-  const content = window.document.querySelector(".content")
+  const content = window.document.querySelector(".main")
   
   if (content === null) {
     return

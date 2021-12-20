@@ -214,3 +214,13 @@ input {
   background-color: grey;
   color: white;
 }
+
+li.toc-list-item {
+  margin-left: calc(var(--header-level) * 24px);
+}
+
+ul.toc-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
