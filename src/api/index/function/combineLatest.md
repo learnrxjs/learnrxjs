@@ -1,11 +1,10 @@
 ---
-title: "combineLatest"
-date: "Created"
-type: "function"
-status: "stable"
+title: combineLatest
+entityInfo:
+  type: function
+  package: operators
+  status: stable
 ---
-
-# CombineLatest
 
 ## Сигнатура
 

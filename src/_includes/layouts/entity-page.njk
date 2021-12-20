@@ -1,0 +1,25 @@
+---
+layout: layouts/page.njk
+---
+
+<header class="article-header">
+  <div class="breadcrumbs-container">
+    <ul class="breadcrumb-list">
+      <li class="breadcrumb-list-item">
+        <a href="">API</a>
+      </li>
+      <li class="breadcrumb-list-item">
+        <a href="">rxjs/index</a>
+      </li>
+    </ul>
+  </div>
+  <div class="title-container">
+    <h1 class="page-title">{{ title }}</h1>
+    <span class="entity-info-label entity-type">{{ translates.entityTypes[ entityInfo.type ] }}</span>
+    <span class="entity-info-label entity-status">{{ translates.entityStatuses[ entityInfo.status ] }}</span>
+  </div>
+</header>
+
+<article class="content">
+  {{ content | safe }}
+</article>

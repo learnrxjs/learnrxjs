@@ -35,12 +35,12 @@ button {
 }
 
 kbd {
-  background-color: #eee;
+  background-color: #eeeeee;
   border-radius: 3px;
   border: 1px solid #b4b4b4;
   box-shadow: 0 1px 1px rgba(0, 0, 0, .2),
-              0 2px 0 0 rgba(255, 255, 255, .7) inset;
-  color: #333;
+  0 2px 0 0 rgba(255, 255, 255, .7) inset;
+  color: #333333;
   display: inline-block;
   font-size: .85em;
   font-weight: 700;
@@ -110,14 +110,18 @@ pre[class*="language-"] {
   position: relative;
 }
 
-.search-input {
+input,
+select {
   color: hsl(0deg 0% 11%);
   background-color: hsl(0deg 0% 100%);
   border: 1px solid hsl(0deg 0% 85%);
   font-family: inherit;
-  padding: 7px 29px 7px 10px;
+  padding: 7px 10px;
   border-radius: 6px;
-  outline: none;
+}
+
+input {
+  padding: 7px 29px 7px 10px;
   width: 100%;
   margin: 0;
 }
@@ -159,4 +163,54 @@ pre[class*="language-"] {
 
 .navigation-list li ul {
   padding-left: 1rem;
+}
+
+.filtration-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.breadcrumb-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 0.3rem;
+}
+
+.breadcrumb-list-item:not(:last-child)::after {
+  content: "/";
+  display: inline-block;
+  margin-left: 0.1rem;
+}
+
+.breadcrumbs-container {
+  font-size: 0.8em;
+}
+
+.page-title {
+  margin: 0;
+}
+
+.title-container {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.entity-info-label {
+  height: fit-content;
+  line-height: 1;
+  padding: 2px 5px;
+  border-radius: 5px;
+  font-size: 0.8em;
+}
+
+.entity-info-label.entity-type {
+  background-color: green;
+  color: white;
+}
+
+.entity-info-label.entity-status {
+  background-color: grey;
+  color: white;
 }

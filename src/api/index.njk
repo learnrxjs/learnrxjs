@@ -1,8 +1,27 @@
 ---
 layout: layouts/base.njk
+title: API
 ---
-<main class="main">
+
+<main class="main body-child">
   <div class="content-container">
     <h1>API</h1>
+    <div class="filtration-container">
+      <select>
+        <option value="BY_PACKAGES">По пакетам</option>
+        <option value="BY_ALPHABET">По алфавиту</option>
+      </select>
+      <input type="text" placeholder="Фильтр...">
+    </div>
+
+    <div>
+      <ul>
+        {%- for entity in collections.entities -%}
+        <li>
+          <a href="{{ entity.url }}">{{ entity.data.title }}</a>
+        </li>
+        {%- endfor -%}
+      </ul>
+    </div>
   </div>
 </main>

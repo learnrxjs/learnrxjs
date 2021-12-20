@@ -1,0 +1,8 @@
+{
+  "entityTypes": {
+    "function": "функция"
+  },
+  "entityStatuses": {
+    "stable": "стабилен"
+  }
+}

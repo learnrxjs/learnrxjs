@@ -1,4 +1,9 @@
-# Audit
+---
+title: audit
+entityInfo:
+  type: function
+  package: operators
+---
 
 ## Сигнатура
 
