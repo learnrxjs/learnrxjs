@@ -101,8 +101,6 @@ pre[class*="language-"] {
 .navigation-sidebar {
   background-color: hsl(220deg 18% 97%);
   border-right: 1px solid hsl(0deg 0% 87%);
-  display: flex;
-  justify-content: flex-end;
 }
 
 .search-container {
@@ -223,4 +221,16 @@ ul.toc-list {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.table-of-content-container {
+  position: sticky;
+  top: 0;
+}
+
+.navigation-sidebar-content {
+  position: sticky;
+  top: 0;
+  width: fit-content;
+  float: right;
 }
