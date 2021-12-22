@@ -1,4 +1,6 @@
-# CombineAll
+---
+title: combineAll
+---
 
 ## Сигнатура
 

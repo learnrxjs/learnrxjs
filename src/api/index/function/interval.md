@@ -1,4 +1,6 @@
-# Interval
+---
+title: interval
+---
 
 ## Сигнатура
 

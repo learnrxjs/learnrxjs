@@ -1,4 +1,6 @@
-# endWith
+---
+title: endWith
+---
 
 ## Сигнатура
 

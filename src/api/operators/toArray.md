@@ -1,4 +1,6 @@
-# ToArray
+---
+title: toArray
+---
 
 ## Сигнатура
 

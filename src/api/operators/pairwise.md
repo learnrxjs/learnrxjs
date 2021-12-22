@@ -1,4 +1,6 @@
-# pairwise
+---
+title: pairwise
+---
 
 ## Сигнатура
 

@@ -1,4 +1,6 @@
-# exhaustMap
+---
+title: exhaustMap
+---
 
 ## Сигнатура
 

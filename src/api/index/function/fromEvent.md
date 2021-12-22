@@ -1,4 +1,6 @@
-# FromEvent
+---
+title: fromEvent
+---
 
 ## Сигнатура
 

@@ -1,4 +1,6 @@
-# buffer
+---
+title: buffer
+---
 
 ## Сигнатура
 

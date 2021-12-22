@@ -1,4 +1,6 @@
-# SwitchMap
+---
+title: switchMap
+---
 
 ## Сигнатура
 

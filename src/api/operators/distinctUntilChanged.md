@@ -1,4 +1,6 @@
-# DistinctUntilChanged
+---
+title: distinctUntilChanged
+---
 
 Пропускает значение если оно отличается от прудыдущего
 

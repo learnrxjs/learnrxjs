@@ -1,4 +1,6 @@
-# DebounceTime
+---
+title: debounceTime
+---
 
 Игнорирует все пришедшие значения в промежуток `dueTime`
 

@@ -1,8 +1,6 @@
 ---
 title: combineLatest
 entityInfo:
-  type: function
-  package: operators
   status: stable
 ---
 

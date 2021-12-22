@@ -1,4 +1,6 @@
-# TakeUntil
+---
+title: takeUntil
+---
 
 Отправляет значения пока Observable `notifier` не закрыт
 

@@ -1,4 +1,6 @@
-# MergeMap
+---
+title: mergeMap
+---
 
 ## Сигнатура
 

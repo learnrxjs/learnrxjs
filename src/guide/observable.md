@@ -1,5 +1,4 @@
 ---
-layout: layouts/base.njk
 title: "Observable"
 ---
 

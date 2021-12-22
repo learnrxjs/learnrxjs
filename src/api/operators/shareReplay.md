@@ -1,4 +1,6 @@
-# ShareReplay
+---
+title: shareReplay
+---
 
 ## Сигнатура
 

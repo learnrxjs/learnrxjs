@@ -1,4 +1,6 @@
-# ForkJoin
+---
+title: forkJoin
+---
 
 ## Сигнатура
 

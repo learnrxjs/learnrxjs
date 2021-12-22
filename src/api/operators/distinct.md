@@ -1,4 +1,6 @@
-# Distinct
+---
+title: distinct
+---
 
 ## Краткое описание
 

@@ -1,4 +1,6 @@
-# CatchError
+---
+title: catchError
+---
 
 Перехватывает исключение или ошибку в потоке и возвращает новый Observable
 

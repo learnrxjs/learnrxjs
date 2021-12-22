@@ -1,4 +1,6 @@
-# WithLatestFrom
+---
+title: withLatestFrom
+---
 
 ## Сигнатура
 

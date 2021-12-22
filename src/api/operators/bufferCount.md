@@ -1,4 +1,6 @@
-# BufferCount
+---
+title: bufferCount
+---
 
 ## Сигнатура
 

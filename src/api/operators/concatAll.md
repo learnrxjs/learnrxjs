@@ -1,4 +1,6 @@
-# ConcatAll
+---
+title: concatAll
+---
 
 ## Сигнатура
 

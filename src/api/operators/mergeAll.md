@@ -1,4 +1,6 @@
-# mergeAll
+---
+title: mergeAll
+---
 
 ## Сигнатура
 

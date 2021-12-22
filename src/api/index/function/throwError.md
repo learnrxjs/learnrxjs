@@ -1,4 +1,6 @@
-# ThrowError
+---
+title: throwError
+---
 
 ## Сигнатура
 
