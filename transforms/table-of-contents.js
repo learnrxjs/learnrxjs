@@ -24,7 +24,7 @@ module.exports = /** @param {Window} window */ (window) => {
     const id = header.getAttribute("id")
     const content = header.childNodes.item(0).textContent
     return `<li class="toc-list-item" style="--header-level: ${ takeHeaderLevel(header) - 2 }">
-      <a href="#${ id }">${ content }</a>
+      <a class="toc-link" href="#${ id }">${ content }</a>
     </li>`
   })
   

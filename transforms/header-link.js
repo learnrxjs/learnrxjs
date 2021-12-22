@@ -32,6 +32,8 @@ module.exports = /** @param {Window} window */ (window) => {
     
     clonedHeaderRef.setAttribute("id", resultId)
     clonedHeaderRef.setAttribute("tabindex", -1)
+    clonedHeaderRef.classList.add("article-header-title")
+    
     clonedHeaderRef.innerHTML = `${ clonedHeaderRef.innerHTML } <a href="#${ resultId }" class="article-header-link">#</a>`
     
     headerRef.replaceWith(clonedHeaderRef)

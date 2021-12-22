@@ -1,3 +1,19 @@
 ---
 layout: layouts/page.njk
 ---
+
+<main class="main body-child">
+  <div class="content-container">
+    <h1>{{ title }}</h1>
+
+    <div>
+      <ul>
+        {%- for entity in collections.entities -%}
+        <li>
+          <a href="{{ entity.url }}">{{ entity.data.title }}</a>
+        </li>
+        {%- endfor -%}
+      </ul>
+    </div>
+  </div>
+</main>
