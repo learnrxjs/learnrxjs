@@ -28,6 +28,7 @@
       - [forkJoin](api/operators/creation/forkJoin.md)
       - [from](api/operators/creation/from.md)
       - [fromEvent](api/operators/creation/fromEvent.md)
+      - [fromEventPattern](api/operators/creation/fromEventPattern.md)
       - [iif](api/operators/creation/iif.md)
       - [interval](api/operators/creation/interval.md)
       - [throwError](api/operators/creation/throwError.md)
