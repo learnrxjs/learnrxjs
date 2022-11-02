@@ -57,6 +57,7 @@
 - [x] forkJoin
 - [x] from
 - [x] fromEvent
+- [x] fromEventPattern
 - [ ] generate
 - [ ] groupBy
 - [x] iif
