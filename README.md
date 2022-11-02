@@ -59,7 +59,7 @@
 - [x] fromEvent
 - [x] fromEventPattern
 - [ ] generate
-- [ ] groupBy
+- [x] groupBy
 - [x] iif
 - [x] ignoreElements
 - [x] interval
