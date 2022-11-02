@@ -29,6 +29,7 @@
       - [from](api/operators/creation/from.md)
       - [fromEvent](api/operators/creation/fromEvent.md)
       - [fromEventPattern](api/operators/creation/fromEventPattern.md)
+      - [groupBy](api/operators/creation/groupBy.md)
       - [iif](api/operators/creation/iif.md)
       - [interval](api/operators/creation/interval.md)
       - [throwError](api/operators/creation/throwError.md)
