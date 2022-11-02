@@ -66,6 +66,7 @@
 - [x] last
 - [ ] let
 - [x] map
+- [x] materialize
 - [x] mapTo
 - [x] merge
 - [x] mergeAll

@@ -66,6 +66,7 @@
        - [ignoreElements](api/operators/pipeable/ignoreElements.md)
        - [last](api/operators/pipeable/last.md)
        - [map](api/operators/pipeable/map.md)
+       - [materialize](api/operators/pipeable/materialize.md)
        - [mapTo](api/operators/pipeable/mapTo.md)
        - [mergeMap](api/operators/pipeable/mergeMap.md)
        - [mergeAll](api/operators/pipeable/mergeAll.md)
