@@ -75,7 +75,7 @@
 - [ ] multicast
 - [x] observeOn
 - [x] of
-- [ ] partition
+- [x] partition
 - [x] pairwise
 - [x] pluck
 - [ ] publish
